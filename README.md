@@ -2,7 +2,7 @@
 ### 🤖 Mechatronics & Control Engineer | Robotics · Embedded Systems · Automation · AI
 
 <p align="center">
-  <img src="https://github.com/EngineerAbdullahBinZafar/EngineerAbdullahBinZafar/raw/main/profile.jpg" width="250" style="border-radius: 50%;" alt="Abdullah Bin Zafar">
+  <img src="https://github.com/EngineerAbdullahBinZafar.png" width="250" style="border-radius: 50%;" alt="Abdullah Bin Zafar">
 </p>
 
 ---
