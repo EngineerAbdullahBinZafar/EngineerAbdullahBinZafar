@@ -1,3 +1,8 @@
+<!-- 
+      ABDULLAH BIN ZAFAR — ELITE GITHUB PROFILE (FULL DATA RESTORED)
+      Mechatronics × Robotics × Embedded Systems × AI
+-->
+
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=slice&color=0:0d1117,25:00d4ff,50:0055ff,100:0d1117&height=300&section=header&text=Abdullah%20Bin%20Zafar&fontSize=80&fontColor=ffffff&fontAlignY=40&stroke=ffffff&strokeWidth=1&desc=⚙️%20ELITE%20MECHATRONICS%20ENGINEER%20%20|%20%20🤖%20ROBOTICS%20ARCHITECT&descSize=18&descAlignY=60&descColor=00d4ff&animation=fadeIn" />
@@ -13,38 +18,23 @@
 
 [![Profile Views](https://komarev.com/ghpvc/?username=EngineerAbdullahBinZafar&style=for-the-badge&color=00d4ff&label=SYSTEM+ACCESS&labelColor=0d1117)](https://github.com/EngineerAbdullahBinZafar)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://linkedin.com/in/abdullah-bin-zafar)
+[![Gmail](https://img.shields.io/badge/Gmail-Connect-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:abz.king.1.9.2003@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=0d1117)](https://wa.me/923361919709)
 
 </div>
 
 <br/>
 
----
+## 🌐 &nbsp;EXECUTIVE PROFILE (RESTORED)
 
-## 🛠️ &nbsp;`System Diagnostics`
-
-```bash
-# RECOVERING DATA...
-# [####################] 100% COMPLETE
-
-USER      : Abdullah Bin Zafar
-STATUS    : 6th Sem Mechatronics @ UET Lahore
-LOC       : Faisalabad, Pakistan 🇵🇰
-FOCUS     : Robotics · Control · Embedded AI
-GOAL      : Build robots that think and act.
-INTERN    : Open to China 🇨🇳 (Fully Funded)
-```
-
----
-
-## 🚀 &nbsp;Flagship Deployments
+> Final-year **Mechatronics & Control Engineering** undergraduate at **UET Lahore — Faisalabad Campus** (Expected 2027) with a proven track record of building physical hardware prototypes for *every single laboratory module* across 5 semesters. Uniquely full-stack across the complete mechatronics discipline: ROS/ROS2 robotics, STM32/ESP32 embedded systems, OpenCV computer vision, MATLAB/Simulink control design, SolidWorks & AutoCAD CAD/CAM, KiCad PCB design, and PLC industrial automation. Certified in Generative AI (Google, IBM, Microsoft) and SolidWorks. Actively learning Mandarin Chinese. **Seeking a fully funded global internship — with strong preference for China — to contribute to cutting-edge robotics and automation R&D.**
 
 <div align="center">
 
-| <img src="https://img.shields.io/badge/ARM--01-1_DOF_Robotic_Arm-00d4ff?style=for-the-badge&logo=arm"/> | <img src="https://img.shields.io/badge/DRONE--01-Autonomous_Racer-00ff88?style=for-the-badge&logo=drones"/> |
-| :---: | :---: |
-| **STM32 | PID | SolidWorks** | **ROS2 | PX4 | OpenCV** |
-| [📂 View Repo](https://github.com/EngineerAbdullahBinZafar) | [📂 View Repo](https://github.com/EngineerAbdullahBinZafar) |
+| 🎓 University | 📊 Metrics | 🏆 Academic Performance |
+| :--- | :--- | :--- |
+| **UET Lahore (FSD Campus)** | **CGPA:** 3.0 / 4.0 | **15+** A / A+ Grades |
+| B.Sc. Mechatronics & Control | **Semester:** 6th (Reg: 2023-MC-292) | **0** Missed Lab Builds |
 
 </div>
 
@@ -52,20 +42,64 @@ INTERN    : Open to China 🇨🇳 (Fully Funded)
 
 ---
 
-## ⚙️ &nbsp;The Arsenal
+## ⚙️ &nbsp;TECHNICAL ARSENAL
 
 <div align="center">
-
-### 🤖 &nbsp;Robotics & Autonomy
-<img src="https://img.shields.io/badge/ROS2-Humble-22314E?style=for-the-badge&logo=ros&logoColor=white"/> <img src="https://img.shields.io/badge/OpenCV-Cyber-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/> <img src="https://img.shields.io/badge/PX4-Autopilot-005A9C?style=for-the-badge&logoColor=white"/> <img src="https://img.shields.io/badge/MATLAB-Simulation-0076A8?style=for-the-badge&logo=mathworks&logoColor=white"/>
-
-### ⚡ &nbsp;Embedded Systems
-<img src="https://img.shields.io/badge/STM32-HAL-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/> <img src="https://img.shields.io/badge/ESP32-IoT-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/> <img src="https://img.shields.io/badge/Arduino-Core-00979D?style=for-the-badge&logo=arduino&logoColor=white"/> <img src="https://img.shields.io/badge/PLC-Logic-FF6B35?style=for-the-badge"/>
-
-### 💻 &nbsp;Languages & Tools
-<img src="https://img.shields.io/badge/C%2B%2B-Systems-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/> <img src="https://img.shields.io/badge/Python-AI-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/SolidWorks-CAD-FF0000?style=for-the-badge&logo=dassaultsystemes&logoColor=white"/> <img src="https://img.shields.io/badge/KiCad-PCB-314CB0?style=for-the-badge&logo=kicad&logoColor=white"/>
-
+  <img src="https://skillicons.dev/icons?i=ros,cpp,c,python,java,ts,js,html,css,react,nodejs,django,flask,fastapi,mysql,postgres,mongodb,aws,azure,gcp,docker,kubernetes,linux,ubuntu,windows,apple,android,git,github,gitlab,bash,powershell,vim,vscode,visualstudio,idea,figma,matlab,arduino,raspberrypi,opencv,tensorflow,pytorch,scikitlearn,markdown,latex&perline=16" />
 </div>
+
+<br/>
+
+### 🧠 &nbsp;Premium AI & Generative Models
+<div align="center">
+  <img src="https://img.shields.io/badge/Antigravity-Agentic_AI-00d4ff?style=for-the-badge&logo=google&logoColor=white&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/OpenAI-ChatGPT_4o-00d4ff?style=for-the-badge&logo=openai&logoColor=white&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Anthropic-Claude_3.5_Sonnet-00d4ff?style=for-the-badge&logo=anthropic&logoColor=white&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Google-Gemini_1.5_Pro-00d4ff?style=for-the-badge&logo=googlegemini&logoColor=white&labelColor=0d1117" />
+  <br/>
+  <img src="https://img.shields.io/badge/Meta-Llama_3-0055ff?style=for-the-badge&logo=meta&logoColor=white&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/GitHub-Copilot-0055ff?style=for-the-badge&logo=githubcopilot&logoColor=white&labelColor=0d1117" />
+</div>
+
+<br/>
+
+| **Domain** | **Technologies & Skills** |
+| :--- | :--- |
+| 🧠 **Generative AI & LLMs** | Prompt Engineering, RAG, AI Agents, Vector DBs (Pinecone) |
+| 🤖 **Robotics & AI** | ROS / ROS2, PID Control, Roboanalyzer, 6-DOF Kinematics |
+| ⚡ **Embedded Systems** | STM32, Arduino, ESP32, I²C, SPI, UART, CAN Bus, PWM |
+| 💻 **Programming** | C / C++, Python, MATLAB, Simulink, Java, TypeScript |
+| 🎨 **CAD / CAM / PCB** | SolidWorks (Certified), AutoCAD, KiCad, CNC Milling, G-code |
+
+---
+
+## 🚀 &nbsp;ROBOTICS & HARDWARE PROJECTS (RESTORED)
+
+<div align="center">
+  <img src="https://cdn.dribbble.com/users/2258541/screenshots/15729352/media/4c0627d310688849b28a2a890479152b.gif" width="100%" />
+</div>
+
+| Project | Hardware / Software | Key Achievements |
+| :--- | :--- | :--- |
+| 🦾 **1-DOF Robotic Arm** | STM32, SolidWorks, MATLAB | CNC-machined. Closed-loop PID per joint. ±0.5mm repeatability. |
+| 🚁 **Autonomous Drone** | ESP32, MPU-6050, OpenCV | Sensor Fusion (IMU + Optical). OpenCV line detection. |
+| 🚗 **Line-Following UAV** | Arduino, IR/Camera Sensors | High-speed path tracking, custom PCB chassis integration. |
+| 🐜 **Ant Robot** | Custom Servos, Kinematics | Hexapod gait generation, inverse kinematics. |
+| ⚙️ **3-DOF Arm** | CAD/CAM, Inverse Kinematics | Designed and simulated a multi-axis manipulator. |
+
+<br/>
+
+---
+
+## 🔬 &nbsp;LABORATORY PROTOTYPING PORTFOLIO
+
+*Hardware Built For Every Module across 5 Semesters:*
+
+*   ⚙️ **Robotics:** Multi-link kinematic synthesis & spatial mechanisms.
+*   💨 **Hydraulics & Pneumatics:** Automated pneumatic door system.
+*   🔌 **Embedded Systems:** STM32/Arduino I²C/SPI polling, PWM motor control.
+*   ⚡ **Electrical Machinery:** Fabricated complete AC/DC regulated power supply.
+*   🏗️ **Engineering Mechanics:** Foldable load-bearing desk with complex hinge.
 
 ---
 
