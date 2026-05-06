@@ -5,12 +5,12 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00d4ff,100:0055ff&height=250&section=header&text=Abdullah%20Bin%20Zafar&fontSize=70&fontColor=ffffff&fontAlignY=35&desc=⚙️%20ELITE%20MECHATRONICS%20ENGINEER%20%20|%20%20🤖%20ROBOTICS%20ARCHITECT&descSize=16&descAlignY=55&descColor=c9d1d9&animation=fadeIn" />
+<!-- CUSTOM ELITE HUMANOID SPLASH -->
+<img src="elite_splash.png" width="100%" />
 
-<!-- PRE-LOADER SPLASH ANIMATION (ROBOTICS RELEVANT) -->
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDBia2R0OXA5N2YxbmZ4Ynd4Ynd4Ynd4Ynd4Ynd4Ynd4Ynd4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/A6aHBCFqlE0Rq/giphy.gif" width="100%" />
+<br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=slice&color=0:0d1117,25:00d4ff,50:0055ff,100:0d1117&height=200&section=header&text=SYSTEMS%20ONLINE&fontSize=40&fontColor=ffffff&fontAlignY=40&stroke=ffffff&strokeWidth=1&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=slice&color=0:000000,50:333333,100:000000&height=150&section=header&text=Abdullah%20Bin%20Zafar&fontSize=60&fontColor=ffffff&fontAlignY=45&stroke=ffffff&strokeWidth=1&desc=⚙️%20ELITE%20MECHATRONICS%20ENGINEER%20%20|%20%20🤖%20ROBOTICS%20ARCHITECT&descSize=16&descAlignY=65&descColor=ffffff&animation=fadeIn" />
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=850&lines=🚀+Engineering+the+Future+of+Robotics;🚁+Autonomous+Drone+Architect+%7C+ROS2+%2B+PX4;⚡+Firmware+Ninja+%7C+STM32+%2F+ESP32;🧠+Computer+Vision+%26+Edge+AI;🌏+UET+Lahore+Class+of+2027" alt="Typing SVG" />
