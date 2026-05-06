@@ -1,24 +1,19 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=slice&color=0:00d4ff,50:0055ff,100:000033&height=280&section=header&text=Abdullah%20Bin%20Zafar&fontSize=70&fontColor=ffffff&fontAlignY=45&stroke=ffffff&strokeWidth=1&desc=⚙️%20Mechatronics%20Engineer%20%20|%20%20🤖%20Robotics%20Expert%20%20|%20%20🛸%20Embedded%20Architect&descSize=20&descAlignY=65&descColor=ffffff&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=slice&color=0:0d1117,25:00d4ff,50:0055ff,100:0d1117&height=300&section=header&text=Abdullah%20Bin%20Zafar&fontSize=80&fontColor=ffffff&fontAlignY=40&stroke=ffffff&strokeWidth=1&desc=⚙️%20ELITE%20MECHATRONICS%20ENGINEER%20%20|%20%20🤖%20ROBOTICS%20ARCHITECT&descSize=18&descAlignY=60&descColor=00d4ff&animation=fadeIn" />
 
-</div>
-
-<div align="center">
+<!-- 3D PREMIUM HERO ANIMATION -->
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDBia2R0OXA5N2YxbmZ4Ynd4Ynd4Ynd4Ynd4Ynd4Ynd4Ynd4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/6Z9G1a3v0v0v0/giphy.gif" width="100%" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=25&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=800&lines=🚀+Engineering+the+Future+of+Robotics;🚁+Autonomous+Drone+Architect+%7C+ROS2+%2B+PX4;⚡+Firmware+Ninja+%7C+STM32+%2F+ESP32;🧠+Computer+Vision+%26+Edge+AI;🌏+UET+Lahore+Class+of+2027" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=850&lines=🚀+Engineering+the+Future+of+Robotics;🚁+Autonomous+Drone+Architect+%7C+ROS2+%2B+PX4;⚡+Firmware+Ninja+%7C+STM32+%2F+ESP32;🧠+Computer+Vision+%26+Edge+AI;🌏+UET+Lahore+Class+of+2027" alt="Typing SVG" />
 </a>
-
-</div>
 
 <br/>
 
-<div align="center">
-
-[![Profile Views](https://komarev.com/ghpvc/?username=EngineerAbdullahBinZafar&style=for-the-badge&color=00d4ff&label=SYSTEM+ACCESS&labelColor=0a0a2e)](https://github.com/EngineerAbdullahBinZafar)
-[![GitHub followers](https://img.shields.io/github/followers/EngineerAbdullahBinZafar?style=for-the-badge&color=00d4ff&labelColor=0a0a2e&label=ALLIES)](https://github.com/EngineerAbdullahBinZafar)
-[![GitHub stars](https://img.shields.io/github/stars/EngineerAbdullahBinZafar?style=for-the-badge&color=00d4ff&labelColor=0a0a2e&label=ACCOLADES)](https://github.com/EngineerAbdullahBinZafar)
+[![Profile Views](https://komarev.com/ghpvc/?username=EngineerAbdullahBinZafar&style=for-the-badge&color=00d4ff&label=SYSTEM+ACCESS&labelColor=0d1117)](https://github.com/EngineerAbdullahBinZafar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://linkedin.com/in/abdullah-bin-zafar)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=0d1117)](https://wa.me/923361919709)
 
 </div>
 
@@ -118,15 +113,15 @@ INTERN    : Open to China 🇨🇳 (Fully Funded)
 <div align="center">
 
 <a href="mailto:abz.king.1.9.2003@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-Connect-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0a2e"/>
+  <img src="https://img.shields.io/badge/Gmail-Connect-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117"/>
 </a>
 &nbsp;
 <a href="https://github.com/EngineerAbdullahBinZafar">
-  <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a2e"/>
+  <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/>
 </a>
 &nbsp;
 <a href="https://wa.me/923361919709">
-  <img src="https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=0a0a2e"/>
+  <img src="https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=0d1117"/>
 </a>
 
 </div>
@@ -139,6 +134,6 @@ INTERN    : Open to China 🇨🇳 (Fully Funded)
 
 <br/><br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:000033,50:0055ff,100:00d4ff&height=120&section=footer&text=Let's+Code+The+Hardware&fontSize=24&fontColor=ffffff&fontAlignY=65&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:0055ff,100:00d4ff&height=120&section=footer&text=Let's+Code+The+Hardware&fontSize=24&fontColor=ffffff&fontAlignY=65&animation=fadeIn" />
 
 </div>
