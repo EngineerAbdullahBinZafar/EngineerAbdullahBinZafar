@@ -7,6 +7,9 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0d1117,50:00d4ff,100:0055ff&height=250&section=header&text=Abdullah%20Bin%20Zafar&fontSize=70&fontColor=ffffff&fontAlignY=35&desc=⚙️%20Mechatronics%20&%20Control%20Engineering%20%20|%20%20🤖%20Robotics%20&%20Embedded%20Systems&descSize=16&descAlignY=55&descColor=c9d1d9&animation=fadeIn" />
 
+<!-- 3D HERO ANIMATION -->
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDBia2R0OXA5N2YxbmZ4Ynd4Ynd4Ynd4Ynd4Ynd4Ynd4Ynd4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/6Z9G1a3v0v0v0/giphy.gif" width="100%" />
+
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=00D4FF&center=true&vCenter=true&width=800&lines=Final-year+Mechatronics+Undergrad+at+UET+Lahore;Hardware+Prototype+Built+For+Every+Single+Lab+Module;Full-Stack:+ROS2,+STM32,+OpenCV,+MATLAB,+SolidWorks;Actively+Learning+Mandarin+Chinese+(HSK+Target);Seeking+Fully-Funded+Robotics+Internship+in+China" alt="Typing SVG" />
 </a>
@@ -80,6 +83,10 @@
 
 ## 🚀 &nbsp;ROBOTICS & HARDWARE PROJECTS
 
+<div align="center">
+  <img src="https://cdn.dribbble.com/users/2258541/screenshots/15729352/media/4c0627d310688849b28a2a890479152b.gif" width="100%" />
+</div>
+
 | Project | Hardware / Software | Key Achievements |
 | :--- | :--- | :--- |
 | 🦾 **1-DOF Articulated Robotic Arm** | STM32, SolidWorks, MATLAB | CNC-machined. MATLAB DH parameters. Closed-loop PID per joint. ±0.5mm repeatability. |
@@ -95,6 +102,10 @@
 ---
 
 ## 💻 &nbsp;SOFTWARE, AI & SIMULATION PROJECTS
+
+<div align="center">
+  <img src="https://cdn.dribbble.com/users/1210339/screenshots/2767010/attachments/563914/nebula.gif" width="100%" />
+</div>
 
 | Application | Stack | Description |
 | :--- | :--- | :--- |
