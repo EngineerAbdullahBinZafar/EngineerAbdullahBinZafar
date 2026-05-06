@@ -5,12 +5,10 @@
 
 <div align="center">
 
-<!-- CUSTOM ELITE HUMANOID SPLASH -->
-<img src="elite_splash.png" width="100%" />
+<!-- WIDE CINEMATIC BANNER -->
+<img src="elite_banner.png" width="100%" />
 
-<br/>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=slice&color=0:000000,50:333333,100:000000&height=150&section=header&text=Abdullah%20Bin%20Zafar&fontSize=60&fontColor=ffffff&fontAlignY=45&stroke=ffffff&strokeWidth=1&desc=⚙️%20ELITE%20MECHATRONICS%20ENGINEER%20%20|%20%20🤖%20ROBOTICS%20ARCHITECT&descSize=16&descAlignY=65&descColor=ffffff&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=slice&color=0:000000,50:333333,100:000000&height=120&section=header&text=Abdullah%20Bin%20Zafar&fontSize=55&fontColor=ffffff&fontAlignY=45&stroke=ffffff&strokeWidth=1&desc=⚙️%20ELITE%20MECHATRONICS%20ENGINEER%20%20|%20%20🤖%20ROBOTICS%20ARCHITECT&descSize=15&descAlignY=65&descColor=ffffff&animation=fadeIn" />
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=850&lines=🚀+Engineering+the+Future+of+Robotics;🚁+Autonomous+Drone+Architect+%7C+ROS2+%2B+PX4;⚡+Firmware+Ninja+%7C+STM32+%2F+ESP32;🧠+Computer+Vision+%26+Edge+AI;🌏+UET+Lahore+Class+of+2027" alt="Typing SVG" />
