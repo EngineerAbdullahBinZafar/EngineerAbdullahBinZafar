@@ -1,216 +1,131 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=slice&color=0:00d4ff,50:0055ff,100:000033&height=280&section=header&text=Abdullah%20Bin%20Zafar&fontSize=65&fontColor=ffffff&fontAlignY=45&stroke=ffffff&strokeWidth=1&desc=⚙️%20Mechatronics%20%26%20Control%20Engineer%20%20|%20%20🤖%20Robotics%20%20|%20%20⚡%20Embedded%20Systems&descSize=18&descAlignY=65&descColor=ffffff&animation=fadeIn" />
+# 👋 Hey, I'm Abdullah Bin Zafar
 
-</div>
+### **Mechatronics Engineer • Hardware Tinkerer • Building the Bridge Between AI & Physical Robots**
 
-<div align="center">
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=880&lines=🚀+Mechatronics+%26+Control+Engineering+@+UET+Lahore;🛠️+Hardware+Prototype+Built+For+Every+Single+Lab+Module;🤖+Robotics+%7C+STM32+%2B+ESP32+%2B+ROS2+%2B+MATLAB;⚡+Seeking+Industrial+Automation+%26+Controls+Internship" alt="Typing SVG" />
-</a>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0a2e)](https://linkedin.com/in/abdullah-bin-zafar)
-[![GitHub](https://img.shields.io/badge/GitHub-EngineerAbdullahBinZafar-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a2e)](https://github.com/EngineerAbdullahBinZafar)
-[![Gmail](https://img.shields.io/badge/Gmail-abz.king.1.9.2003@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0a2e)](mailto:abz.king.1.9.2003@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-+92_336_1919709-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=0a0a2e)](https://wa.me/923361919709)
-
-</div>
-
-<br/>
+*Undergraduate at UET Lahore (Faisalabad Campus) | 6th Semester | Expected 2027*
 
 ---
 
-## 📌 &nbsp;Executive Professional Summary
-
-> **Mechatronics & Control Engineering undergraduate** (6th semester, UET Lahore — Faisalabad Campus) who has completed a physical hardware build for every laboratory module across six semesters — spanning power electronics, pneumatics, embedded control, and robotics. Works fluidly across MATLAB/Simulink control design, STM32/ESP32 firmware development, and CNC-machined mechanical assemblies within a single project, and backs every result with measured data — repeatability tolerances, ripple figures, attitude-error margins — rather than descriptive claims. **Seeking an industrial automation, controls, or maintenance engineering internship within Pakistan's manufacturing sector.**
-
----
-
-## 🎓 &nbsp;Education & Academic Achievements
-
-<div align="center">
-
-| 🏛️ Institution | 📊 Key Metrics | 🏆 Academic Highlights |
-| :--- | :--- | :--- |
-| **University of Engineering & Technology (UET) Lahore** | **Degree:** B.Sc. Mechatronics & Control Eng | **20** A / A+ Grades |
-| *Faisalabad Campus (Expected 2027)* | **CGPA:** 3.0 / 4.0 &nbsp;\|&nbsp; **Semester:** 6th | **Scholarship Recipient** |
-| **Reg No:** `2023-MC-292` | **Lab Performance:** Hardware build for 100% lab modules | **CSWP Certified** |
+<p align="center">
+  <a href="mailto:abz.king.1.9.2003@gmail.com">
+    <img src="https://img.shields.io/badge/Email-abz.king.1.9.2003%40gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://linkedin.com/in/abdullah-bin-zafar">
+    <img src="https://img.shields.io/badge/LinkedIn-Abdullah%20Bin%20Zafar-0a66c2?style=flat-square&logo=linkedin&logoColor=white"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://wa.me/923361919709">
+    <img src="https://img.shields.io/badge/WhatsApp-%2B92%20336%201919709-25d366?style=flat-square&logo=whatsapp&logoColor=white"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/EngineerAbdullahBinZafar">
+    <img src="https://img.shields.io/badge/GitHub-EngineerAbdullahBinZafar-181717?style=flat-square&logo=github&logoColor=white"/>
+  </a>
+</p>
 
 </div>
 
 <br/>
 
-<details>
-<summary><b>📚 Comprehensive Relevant Coursework (Click to Expand)</b></summary>
-<br/>
+## 🛠️ About Me & Engineering Philosophy
 
-*   🤖 **Robotics & Control:** Robotics · Control Systems · AI & Intelligent Systems · Modeling & Simulation · Mechanisms · Signal Processing
-*   ⚡ **Embedded & Electronics:** Embedded Systems I & II · Instrumentation · Digital Logic Design · Electrical Machinery
-*   ⚙️ **Mechanical & Industrial:** Machine Design & Elements · Manufacturing Processes · Hydraulics & Pneumatics · Engineering Mechanics
-*   🧮 **Applied Mathematics:** Numerical Analysis · Probability & Statistics · Differential Equations
-</details>
+> *"Simulation is great, but nothing beats watching physical motors turn, sensors stream, and control loops stabilize in real hardware."*
+
+I am a **Mechatronics & Control Engineering** student who believes in hands-on craftsmanship. Across 6 academic semesters, I have built **physical hardware deliverables for 100% of my laboratory modules**—combining custom PCB routing in KiCad, firmware on STM32/ESP32, control modeling in MATLAB/Simulink, and mechanical CNC assemblies.
+
+Currently, I'm pioneering the intersection of **Agentic AI & Robotics**, building infrastructure like [`ros2-mcp-server`](https://github.com/EngineerAbdullahBinZafar/ros2-mcp-server) to give AI models direct, sandboxed control over ROS2 physical systems.
 
 ---
 
-## ⚙️ &nbsp;Technical Skills Matrix
+## 🚀 Key Highlights & Projects
 
-<div align="center">
-
-### 💻 &nbsp;Programming & Simulation
-<img src="https://img.shields.io/badge/C%2B%2B-Systems-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/> <img src="https://img.shields.io/badge/Python-Engineering-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/MATLAB-Simulink-0076A8?style=for-the-badge&logo=mathworks&logoColor=white"/> <img src="https://img.shields.io/badge/Java-Core-007396?style=for-the-badge&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-Logic-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-
-### ⚡ &nbsp;Embedded Systems & Hardware Protocols
-<img src="https://img.shields.io/badge/STM32-HAL-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/> <img src="https://img.shields.io/badge/ESP32-IoT-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/> <img src="https://img.shields.io/badge/Arduino-Core-00979D?style=for-the-badge&logo=arduino&logoColor=white"/> <img src="https://img.shields.io/badge/Buses-I²C_|_SPI_|_UART_|_CAN-0a0a2e?style=for-the-badge"/> <img src="https://img.shields.io/badge/Control-PWM_|_ADC-0a0a2e?style=for-the-badge"/>
-
-### 🤖 &nbsp;Robotics, Vision & Control Theory
-<img src="https://img.shields.io/badge/ROS2-Humble-22314E?style=for-the-badge&logo=ros&logoColor=white"/> <img src="https://img.shields.io/badge/OpenCV-Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/> <img src="https://img.shields.io/badge/Control-PID_|_Kinematics_|_Bode_|_Nyquist-0055ff?style=for-the-badge"/> <img src="https://img.shields.io/badge/DSP-Kalman_|_FIR_|_IIR_|_FFT-00d4ff?style=for-the-badge"/>
-
-### 🎨 &nbsp;CAD, CAM & PCB Fabrication
-<img src="https://img.shields.io/badge/SolidWorks-CSWP_Certified-FF0000?style=for-the-badge&logo=dassaultsystemes&logoColor=white"/> <img src="https://img.shields.io/badge/AutoCAD-2D%2F3D-E52120?style=for-the-badge&logo=autodesk&logoColor=white"/> <img src="https://img.shields.io/badge/KiCad-PCB_DRC-314CB0?style=for-the-badge&logo=kicad&logoColor=white"/> <img src="https://img.shields.io/badge/CAM-CNC_Milling_|_G--Code_|_GD%26T-FF6B35?style=for-the-badge"/>
-
-</div>
-
----
-
-## 🏆 &nbsp;Certifications & Accreditations
-
-| Domain | Certification Details | Issuing / Partner Organization |
-| :--- | :--- | :--- |
-| 🎨 **Engineering Design** | **Certified SolidWorks Professional (CSWP)** — Advanced 3D & Assembly Design | Dassault Systèmes |
-| 📊 **Simulation & Modeling** | **MATLAB Professional Certification** — Simulation & Model-Based Design | MathWorks |
-| 🧠 **Artificial Intelligence** | **Generative AI & Machine Learning Specialization** | Google, IBM, Microsoft |
-| 🏭 **Industry & Problem Solving** | **Problem-Solving Certification** | Hyundai Nishat Motor (Pvt) Ltd. |
-
----
-
-## 🚀 &nbsp;Featured Engineering Projects
-
-### 🤖 Robotics & Autonomous Systems
-
-#### 🦾 3-DOF Robotic Arm *(Supervisor: Dr. Dilruba Siddique)*
-> **Stack:** `MATLAB/Simulink` · `STM32` · `RoboAnalyzer` · `Closed-Loop PID` · `CNC Machining` · `DH Parameters`
-*   **Kinematics:** Modeled DH parameters and performed Jacobian analysis in MATLAB to define workspace envelope & joint trajectories.
-*   **Control:** Implemented closed-loop PID control per joint with back-EMF compensation; verified stability using Routh-Hurwitz criteria and Bode plots in Simulink.
-*   **Hardware:** CNC-machined mechanical linkages and integrated an STM32 microcontroller with motor drivers over PWM/UART, achieving **±1 mm end-effector positioning accuracy**.
-
-#### 🚁 Autonomous Racing Drone *(Supervisor: Dr. Muhammad Usman)*
-> **Stack:** `Arduino/ESP32` · `MPU-6050 IMU` · `Kalman Filter` · `FIR/IIR DSP` · `AutoCAD` · `CNC`
-*   **Sensor Fusion:** Fused MPU-6050 6-axis IMU data (I²C) with optical flow input and tuned PID loops to hold **attitude error under 2°** at racing speeds.
-*   **Signal Processing:** Applied Kalman filtering and FIR low-pass filters on the ESP32 to remove gyro drift, cutting control-loop latency by **~40%**.
-*   **Airframe:** Designed airframe in AutoCAD for a **4.2:1 thrust-to-weight ratio** and manufactured it via CNC routing with 3D-printed motor mounts.
-
-#### 🛩️ Line-Following UAV *(Vision-Guided Navigation)*
-> **Stack:** `OpenCV` · `Custom KiCad PCB` · `Arduino`
-*   **Computer Vision:** Built an OpenCV line-detection pipeline for autonomous path tracking, holding **centerline deviation under 15 mm**.
-*   **Hardware Integration:** Paired vision pipeline with a custom KiCad PCB, reducing maneuver latency by **~20%** compared to breadboard build.
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤖 <a href="https://github.com/EngineerAbdullahBinZafar/ros2-mcp-server">ros2-mcp-server</a></h3>
+      <p><b>World's first Model Context Protocol (MCP) server for ROS2.</b> Bridges Claude Desktop & AI agents directly to live ROS2 topics and parameters with an execution sandbox for physical hardware safety.</p>
+      <p><code>Python</code> • <code>ROS2 Humble</code> • <code>MCP</code> • <code>Multi-Threading</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/EngineerAbdullahBinZafar/ros2-hardware-bridge">ros2-hardware-bridge</a></h3>
+      <p><b>Lightweight serial bridge for STM32 microcontrollers.</b> High-throughput binary protocol using CRC8 checks to link low-level C++ firmware directly into ROS2 node networks.</p>
+      <p><code>C++</code> • <code>STM32 HAL</code> • <code>ROS2</code> • <code>CRC8</code> • <code>UART</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🦾 3-DOF Kinematic Robotic Arm</h3>
+      <p>Closed-loop PID joint control with back-EMF compensation. Modeled via DH parameters & Jacobians in MATLAB, CNC-machined, achieving <b>±1 mm positioning accuracy</b>.</p>
+      <p><code>MATLAB/Simulink</code> • <code>STM32</code> • <code>PID</code> • <code>CNC Machining</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🚁 Autonomous Racing Drone</h3>
+      <p>Custom quadcopter flight controller using ESP32 & MPU-6050 IMU. Fused data via <b>Kalman filtering</b> and FIR DSP filters to keep attitude error under 2°.</p>
+      <p><code>ESP32</code> • <code>Kalman Filter</code> • <code>DSP</code> • <code>AutoCAD</code></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### ⚡ Control, Power & Industrial Systems
+## 🧰 Tech Workbench
 
-*   ⚙️ **DC Motor Control System:** Designed a closed-loop DC motor controller for heavy-duty drive applications, improving **torque stability by 15%** and reducing energy consumption relative to open-loop baseline.
-*   💨 **Automatic Pneumatic Safety Door:** Designed and simulated an automated pneumatic actuation system with staged valve logic, engineered in line with standard industrial safety practice for guarded access points.
-*   🔌 **AC/DC Regulated Power Supply:** Built and validated a regulated power supply from transformer through full-wave rectification and LC filtering, achieving **output ripple under 50 mV** for stable operation of sensitive electronics.
-*   🌱 **Environmental Monitoring & Control System:** Engineered an embedded climate-control system holding humidity within **±2% of setpoint** using real-time sensor feedback and actuator control (applicable to textile/fiber production).
-*   📡 **Multi-System Weather Monitoring Station:** Developed a sensor integration and DAQ platform for real-time monitoring of temperature, humidity, and environmental parameters.
-*   🎛️ **Signal Conditioning Filters:** Hardware-validated active low-pass and high-pass filters to reduce sensor noise in measurement chains.
-
----
-
-### 💻 Software, Firmware & Simulation Projects
-
-*   🌐 **ROS 2 Hardware Bridge:** Built a lightweight ROS 2 bridge for STM32 microcontrollers using custom CRC8 binary protocol for reliable serial comms between firmware and ROS nodes. ([📂 View Repo](https://github.com/EngineerAbdullahBinZafar/ros2-hardware-bridge))
-*   📊 **MATLAB/Simulink Modeling Portfolio:** Modeled and simulated transfer functions, root locus, and Bode/Nyquist plots for 2nd- and 3rd-order systems; implemented FIR/IIR digital filters and FFT analysis.
-*   🧠 **Python AI & OpenCV Applications:** Integrated GenAI/LLM APIs into Python applications for workflow automation and built OpenCV pipelines for object detection and color segmentation.
-*   ✈️ **Airline Management System (C++):** Terminal-based flight scheduling, passenger manifest, and ticketing with dynamic memory management and file I/O persistence.
-*   💱 **Currency Converter (C++):** Real-time conversion engine using hash maps for $O(1)$ lookup across 40+ exchange rates.
-
----
-
-### 🎨 CAD & PCB Design Portfolio
-
-*   📐 **SolidWorks Assemblies:** 10+ SolidWorks assemblies modeled to **±0.05 mm GD&T tolerance**, with toolpath optimization cutting **CNC cycle times by ~25%**.
-*   ⚡ **Full KiCad Workflow:** Schematic capture, PCB layout routing, and design-rule-check (DRC) validation for custom embedded boards.
+<table>
+  <tr>
+    <td width="25%"><b>Programming & Modeling</b></td>
+    <td><code>C++</code> <code>Python</code> <code>MATLAB / Simulink</code> <code>Java</code> <code>TypeScript</code></td>
+  </tr>
+  <tr>
+    <td><b>Robotics & Control</b></td>
+    <td><code>ROS2 Humble</code> <code>OpenCV</code> <code>PID Tuning</code> <code>Kalman Filters</code> <code>DSP</code></td>
+  </tr>
+  <tr>
+    <td><b>Embedded & Buses</b></td>
+    <td><code>STM32 (HAL)</code> <code>ESP32</code> <code>Arduino</code> <code>I²C</code> <code>SPI</code> <code>UART</code> <code>CAN</code></td>
+  </tr>
+  <tr>
+    <td><b>CAD / CAM & Hardware</b></td>
+    <td><code>SolidWorks (CSWP Certified)</code> <code>KiCad PCB</code> <code>CNC Milling</code> <code>Pneumatics</code></td>
+  </tr>
+</table>
 
 ---
 
-## 🔬 &nbsp;Laboratory Hardware Deliverables (Physical Build Every Module)
+## 🔬 Hardware Lab Deliverables (100% Built & Verified)
 
-<div align="center">
-
-| Module & Instructor | Hardware Deliverable & Verification |
+| Module | Hardware Build & Data Verification |
 | :--- | :--- |
-| 🧮 **Digital Logic Design** *(M. Zia Ur Rahman)* | Combinational & sequential logic; finite-state machines built on breadboard & validated in FPGA simulation. |
-| ⚙️ **Machine Design & Elements** *(Dr. Imran Ali)* | Gear trains, shaft assemblies, bearing selection in SolidWorks; fatigue-life analysis — **A Grade**. |
-| 🏗️ **Engineering Mechanics** *(Dr. Ammara Kanwal)* | Foldable load-bearing desk with hinge mechanisms; shear & bending predictions **within 5% of theory**. |
-| 🎛️ **Instrumentation** | Sensor calibration, signal-conditioning circuits, and DAQ system integration for real-time measurement. |
-| 🦾 **Robotics & Mechanisms** *(Dr. Dilruba Siddique)* | Multi-link kinematic synthesis, mechanism assembly, and motion validation. |
-| 💨 **Hydraulics & Pneumatics** *(Dr. M. Awais Hafeez)* | Three-stage valve pressure-drop analysis for automated pneumatic safety door. |
-| 🔌 **Embedded Systems I & II** *(Dr. M. Usman)* | Real-time I²C/SPI sensor polling, PWM motor control, and UART serial communication. |
-| ⚡ **Electrical Machinery** *(Umar Siddique Virk)* | Complete AC/DC regulated power supply build from transformer through output. |
-
-</div>
+| **Robotics & Mechanisms** | Multi-link kinematic synthesis & PID arm assembly with measured ±1 mm repeatability. |
+| **Embedded Systems I & II** | STM32/ESP32 real-time sensor polling over I²C/SPI with low-latency PWM drive. |
+| **Digital Logic Design** | Combinational & sequential state machines built on breadboards & verified on FPGA. |
+| **Hydraulics & Pneumatics** | 3-stage valve automated pneumatic safety door with measured pressure-drop analysis. |
+| **Electrical Machinery** | Custom AC/DC regulated power supply built from transformer to LC filter (&lt;50 mV ripple). |
+| **Engineering Mechanics** | CNC-cut load-bearing structure with shear & bending test results within 5% of theory. |
 
 ---
 
-## 📊 &nbsp;GitHub Intelligence & Statistics
+## 🏆 Accreditations
 
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=EngineerAbdullahBinZafar&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9&bg_color=0d1117" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EngineerAbdullahBinZafar&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&title_color=00d4ff&text_color=c9d1d9&bg_color=0d1117" />
-
-</div>
-
-<div align="center">
-
-<img width="70%" src="https://streak-stats.demolab.com/?user=EngineerAbdullahBinZafar&theme=tokyonight&hide_border=true&ring=00d4ff&fire=00d4ff&currStreakLabel=00d4ff&background=0d1117&stroke=00d4ff" />
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EngineerAbdullahBinZafar/EngineerAbdullahBinZafar/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/EngineerAbdullahBinZafar/EngineerAbdullahBinZafar/output/github-snake.svg" />
-  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/EngineerAbdullahBinZafar/EngineerAbdullahBinZafar/output/github-snake.svg" />
-</picture>
-
-</div>
+- 🎨 **CSWP (Certified SolidWorks Professional)** — *Dassault Systèmes*
+- 📊 **MATLAB Professional Certification** — *MathWorks*
+- 🧠 **Generative AI & Machine Learning Specialization** — *Google / IBM / Microsoft*
+- 🏭 **Problem-Solving Certification** — *Hyundai Nishat Motor (Pvt) Ltd.*
 
 ---
 
-## 🌐 &nbsp;Connect With Me
-
 <div align="center">
 
-<a href="mailto:abz.king.1.9.2003@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-abz.king.1.9.2003@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0a2e"/>
-</a>
-&nbsp;
-<a href="https://linkedin.com/in/abdullah-bin-zafar">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0a2e"/>
-</a>
-&nbsp;
-<a href="https://wa.me/923361919709">
-  <img src="https://img.shields.io/badge/WhatsApp-+92_336_1919709-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=0a0a2e"/>
-</a>
+### 🤝 Let's Connect & Build Together
 
-</div>
+*Currently seeking **Industrial Automation, Controls, or Maintenance Engineering Internships** within Pakistan's manufacturing & automation sector.*
 
 <br/>
 
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:000033,50:0055ff,100:00d4ff&height=120&section=footer&text=Languages:+English+(Professional)+|+Urdu+(Native)&fontSize=22&fontColor=ffffff&fontAlignY=65&animation=fadeIn" />
+```
+"Quality is not an act, it is a habit." — Aristotle
+```
 
 </div>
