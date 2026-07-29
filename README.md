@@ -66,26 +66,26 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/EngineerAbdullahBinZafar/principia-robotica">Principia Robotica (v1.0.0)</a> 🏆</h3>
+      <p><b>World's first unified MCP gateway + Control Barrier Function (CBF-QP) safety engine for agentic robotics.</b> Intercepts LLM commands in real-time (<1ms) and enforces mathematically proven safety invariance (∀t≥0: h(x(t))≥0) with minimal perturbation.</p>
+      <p><code>Control Theory</code> • <code>CBF-QP</code> • <code>ROS2</code> • <code>MCP</code> • <code>Python/C++</code> • <code>13 MCP Tools</code></p>
+    </td>
+    <td width="50%" valign="top">
       <h3>🌐 <a href="https://github.com/EngineerAbdullahBinZafar/ros2-mcp-server">ros2-mcp-server</a></h3>
       <p><b>World's first Model Context Protocol server for ROS2.</b> Connects Claude & AI agents directly to live ROS2 topics and node execution with a safe execution sandbox for hardware protection.</p>
       <p><code>Python</code> • <code>ROS2 Humble</code> • <code>MCP</code> • <code>Multi-Threading</code></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>🦾 3-DOF Kinematic Robotic Arm</h3>
       <p><i>Supervisor: Dr. Dilruba Siddique</i><br/>Modeled DH parameters & Jacobians in MATLAB. Implemented closed-loop PID control per joint on STM32 via PWM/UART, achieving <b>±1 mm positioning accuracy</b> on CNC-machined linkages.</p>
       <p><code>MATLAB/Simulink</code> • <code>STM32</code> • <code>RoboAnalyzer</code> • <code>PID</code> • <code>CNC</code></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>🚁 Autonomous Racing Drone</h3>
       <p><i>Supervisor: Dr. Muhammad Usman</i><br/>Custom quadcopter with ESP32 & MPU-6050 IMU. Fused data via <b>Kalman filtering</b> & FIR filters, cutting control latency by ~40% and holding attitude error under 2° with a 4.2:1 thrust ratio.</p>
       <p><code>ESP32</code> • <code>MPU-6050</code> • <code>Kalman Filter</code> • <code>DSP</code> • <code>CNC Airframe</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🛩️ Line-Following UAV</h3>
-      <p>OpenCV vision-guided autonomous flight path tracking. Paired vision pipeline with a custom-routed KiCad PCB, holding centerline deviation under 15 mm and reducing maneuver latency by ~20%.</p>
-      <p><code>OpenCV</code> • <code>Custom KiCad PCB</code> • <code>Arduino</code> • <code>Vision Navigation</code></p>
     </td>
   </tr>
 </table>
