@@ -7,6 +7,7 @@
 [![GitHub Followers](https://img.shields.io/github/followers/EngineerAbdullahBinZafar?label=Followers&style=for-the-badge&logo=github&color=181717)](https://github.com/EngineerAbdullahBinZafar)
 [![GitHub Stars](https://img.shields.io/github/stars/EngineerAbdullahBinZafar?label=Total%20Stars&style=for-the-badge&logo=apachespark&color=f59e0b)](https://github.com/EngineerAbdullahBinZafar)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/abdullah-bin-zafar)
+[![Website](https://img.shields.io/badge/Publication-The%20Quiet%20Wealth%20Journal-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://thequietwealthjournal.vercel.app)
 [![Email](https://img.shields.io/badge/Email-abz.king.1.9.2003%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abz.king.1.9.2003@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B92%20336%201919709-25d366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923361919709)
 
@@ -95,6 +96,14 @@
 
 ---
 
+### 5. 🏛️ [The Quiet Wealth Journal](https://thequietwealthjournal.vercel.app) — *Digital Editorial & Research Publication*
+> **Architectural Dossiers on Wealth Sovereignty, High-Stakes Operations & Strategic Privacy**
+
+- Architected a digital research publication exploring capital stewardship, operational leverage, and decision architecture for sovereign operators and founders.
+- Built on Next.js with high-performance responsive typography, headless Sanity content pipelines, and automated distribution channels.
+
+---
+
 ## 🏭 Industrial Internship & Manufacturing Experience
 
 ### **Interloop Limited** — *Industrial Automation & Controls Intern (Aug 2025 – Sep 2025)*
@@ -135,6 +144,6 @@ Every single academic laboratory was backed by an operable, physical hardware pr
 ### 💼 Open for Autonomous Systems, Robotics & Control Engineering Opportunities
 **Targeting:** Global Autonomous Vehicle (BMW, Mercedes, Waymo), Aerospace/Turbomachinery (Rolls-Royce, Airbus), and Advanced Industrial Automation Systems.
 
-[📧 Contact via Email](mailto:abz.king.1.9.2003@gmail.com) • [💬 Connect on LinkedIn](https://linkedin.com/in/abdullah-bin-zafar) • [🌐 Explore Principia Robotica](https://github.com/EngineerAbdullahBinZafar/principia-robotica)
+[📧 Contact via Email](mailto:abz.king.1.9.2003@gmail.com) • [💬 Connect on LinkedIn](https://linkedin.com/in/abdullah-bin-zafar) • [🌐 Explore Principia Robotica](https://github.com/EngineerAbdullahBinZafar/principia-robotica) • [🏛️ The Quiet Wealth Journal](https://thequietwealthjournal.vercel.app)
 
 </div>
