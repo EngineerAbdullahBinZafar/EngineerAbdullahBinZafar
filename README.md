@@ -65,14 +65,16 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
+      <a href="https://github.com/EngineerAbdullahBinZafar/principia-robotica"><img src="https://raw.githubusercontent.com/EngineerAbdullahBinZafar/principia-robotica/main/docs/assets/demo_visualizer.svg" width="100%" alt="Principia Robotica Real-Time Safety Engine" /></a>
       <h3>⚡ <a href="https://github.com/EngineerAbdullahBinZafar/principia-robotica">Principia Robotica (v1.0.0)</a> 🏆</h3>
       <p><b>World's first unified MCP gateway + Control Barrier Function (CBF-QP) real-time safety engine for agentic robotics.</b> Intercepts LLM commands in sub-millisecond real-time (&lt;0.1 ms, &gt;12,000 Hz) and enforces forward invariance ($\forall t \ge 0: h(x(t)) \ge 0$) with minimal $L_2$ perturbation.</p>
       <p><code>Control Theory</code> • <code>CBF-QP</code> • <code>ROS 2</code> • <code>MCP</code> • <code>14 Tools</code> • <code>68/68 Tests Passed</code> • <a href="https://engineerabdullahbinzafar.github.io/principia-robotica/"><b>Live 60 FPS Visualizer</b></a></p>
     </td>
     <td width="50%" valign="top">
+      <a href="https://github.com/EngineerAbdullahBinZafar/project-spidey-hexapod"><img src="assets/spidey_robot_hero.png" width="100%" alt="Project SPIDEY 18-DOF Hexapod Hardware" /></a>
       <h3>🕷️ <a href="https://github.com/EngineerAbdullahBinZafar/project-spidey-hexapod">Project SPIDEY — 18-DOF Hexapod (FYP)</a></h3>
-      <p><b>18-DOF bio-inspired autonomous walking hexapod robot.</b> Engineered forward/inverse kinematics (DH parameters) supporting Tripod, Wave, and Ripple gaits on uneven terrain. Multi-channel synchronized PWM servo timing with STM32/ESP32, IMU stabilization, and CNC chassis.</p>
-      <p><code>Kinematics (DH)</code> • <code>STM32/ESP32</code> • <code>Bio-Inspired Gaits</code> • <code>CNC Airframe</code></p>
+      <p><b>18-DOF bio-inspired autonomous walking hexapod robot.</b> Engineered forward/inverse kinematics (DH parameters) supporting Tripod, Wave, and Ripple gaits on uneven terrain. Multi-channel synchronized PWM servo timing with STM32/RP2040, IMU stabilization, and CNC chassis.</p>
+      <p><code>Kinematics (DH)</code> • <code>STM32/RP2040</code> • <code>Bio-Inspired Gaits</code> • <code>CNC Airframe</code> • <code>Real Hardware Built</code></p>
     </td>
   </tr>
   <tr>
@@ -209,23 +211,27 @@
 <table width="100%">
   <tr>
     <td width="33%" valign="top">
+      <img src="assets/interloop_image18.png" width="100%" alt="Interloop Automation Architecture" />
       <h4>⚡ Automation & Electro-Pneumatics</h4>
       <p>Audited high-speed production line pneumatic manifolds and air delivery loops. Optimized 3-stage valve sequencing, reducing pneumatic line pressure drops across machinery guard interlocks and cutting transient cycle delay.</p>
     </td>
     <td width="33%" valign="top">
+      <img src="assets/interloop_image62.png" width="100%" alt="Process Engineering & Hydraulic Architecture" />
       <h4>🌡️ Closed-Loop Plant Telemetry</h4>
       <p>Calibrated environmental instrumentation and HVAC humidity feedback control loops, holding critical yarn/fiber processing atmospheric conditions strictly within <b>±2% relative humidity</b> setpoints across active production halls.</p>
     </td>
     <td width="33%" valign="top">
+      <img src="assets/interloop_image80.png" width="100%" alt="Interloop Engineering Evaluation Rubric" />
       <h4>🛠️ Diagnostics, PLC & Reliability</h4>
       <p>Assisted senior instrumentation engineers in analyzing sensor signal noise on heavy motor drive lines. Tested op-amp active low-pass filtering and sensor conditioning to mitigate false-alarm line trip faults and enhance plant OEE.</p>
     </td>
   </tr>
 </table>
 
-- **Department / Focus:** Industrial Automation, Process Instrumentation & Plant Engineering
-- **Engineering Tools & Systems:** Festo / SMC Electro-Pneumatics, Sensor Signal Conditioning & DAQ, Industrial Closed-Loop Control, Root-Cause Failure Analysis (RCFA)
-- **Direct Impact:** Enhanced pneumatic actuation response reliability and verified telemetry data integrity on critical manufacturing machinery.
+- **Department / Facility:** Engineering Department | Plant 2 (HD2), Khurrianwala, Faisalabad
+- **Industrial Supervisory Committee:** Sir Shahbaaz *(Lead Industrial Supervisor)*, Sir Usama *(Co-Supervisor)*, Sir Amir *(Co-Supervisor)*
+- **Systems & Machinery Analyzed:** Wärtsilä V16 34DF Tri-Fuel Cogeneration Engine (7.8 MW), 1,818 Lonati Circular Knitting Robots, Fong's ALLWIN-166 HTHP Dyeing P&ID, Central Air Utilities & Absorption Chillers.
+- **Official Documentation:** 162-page industrial audit report & certified supervisory evaluation rubric completed and signed off.
 
 ---
 
