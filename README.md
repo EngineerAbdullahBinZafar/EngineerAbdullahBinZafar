@@ -47,7 +47,7 @@
   </tr>
   <tr>
     <td><b>📐 CAD, CAM, CFD & Fabrication</b></td>
-    <td><code>SolidWorks (CSWP Certified)</code> <code>AutoCAD 2D/3D</code> <code>KiCad PCB Layout & DRC</code> <code>CNC G-Code & Toolpath Optimization</code> <code>3D Printing & Additive CAM</code> <code>Aerodynamic & Centrifugal Impellers</code></td>
+    <td><code>SolidWorks (Mechanical & Assemblies)</code> <code>AutoCAD 2D/3D</code> <code>KiCad PCB Layout & DRC</code> <code>CNC G-Code & Toolpath Optimization</code> <code>3D Printing & Additive CAM</code> <code>Aerodynamic & Centrifugal Impellers</code></td>
   </tr>
   <tr>
     <td><b>💻 Systems Programming & Tools</b></td>
@@ -82,7 +82,7 @@
 ### 3. 🌀 VORTEX-100 — *Industrial Aerodynamic Fluid Amplifier & Bladeless System*
 > **Engineered Centrifugal Impeller, Volute Plenum, and Coandă Airfoil Assembly**
 
-- **Aero & CAD Realization:** Modeled 11-blade high-pressure centrifugal impeller, volute diffuser plenum, and precision Coandă aerodynamic ring airfoil in SolidWorks (CSWP certified).
+- **Aero & CAD Realization:** Modeled 11-blade high-pressure centrifugal impeller, volute diffuser plenum, and precision Coandă aerodynamic ring airfoil in SolidWorks.
 - **Physical Prototyping:** 3D-modeled, CFD-analyzed, and rapid-prototyped multi-part assembly (`Base_Pedestal`, `Centrifugal_Impeller`, `Ring_Airfoil`) with complete procurement Bill of Materials (BOM).
 - **Thermal & Fluid Performance:** Multiplied entrained air volume via fluid dynamics principles, reducing power draw by 35% compared to conventional bladed fans.
 
