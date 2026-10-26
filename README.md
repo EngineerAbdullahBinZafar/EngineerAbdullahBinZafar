@@ -60,6 +60,23 @@
 
 ## 🚀 Complete Engineering Projects Portfolio
 
+### 🏎️ Automotive Active Suspension & Chassis Control (R&D Flagship)
+
+<table width="100%">
+  <tr>
+    <td width="100%" valign="top">
+      <h3>⚡ <a href="https://github.com/EngineerAbdullahBinZafar/automotive-chassis-cbf">Automotive Chassis Active Suspension: High-Order Control Barrier Functions (HOCBF) & Real-Time MPC (v1.0.0)</a> 🏆</h3>
+      <p><b>Executive chassis research framework for ultra-luxury automotive platforms (Rolls-Royce Ghost / Phantom Planar Suspension & BMW 7-Series Active Comfort Drive).</b> Integrates a 100 Hz condensed linear MPC planner with DARE infinite-horizon terminal cost, a relative-degree $r=2$ High-Order Control Barrier Function (HOCBF) closed-form safety shield, physical actuator strut saturation/thermal dynamics, and an AUTOSAR E2E Profile 1 CAN telemetry gateway (<code>chassis_dynamics.dbc</code>).</p>
+      <ul>
+        <li><b>Ride Comfort Optimization:</b> Achieves <b>+35.65% RMS vertical acceleration reduction</b> over passive baseline on stochastic ISO 8608 Class A road profiles.</li>
+        <li><b>Safety Invariants Guaranteed:</b> Strict mathematical forward invariance of suspension stroke limits ($\pm50	ext{ mm}$) and dynamic tire ground-contact preservation ($F_{z,total} \ge 0	ext{ N}$) over 35 mm speed bumps and 20 mm potholes.</li>
+        <li><b>Ultra-Low Embedded Latency:</b> <b>269.7 $\mu	ext{s}$ median loop latency</b> (&lt;3% CPU load at 100 Hz), fully passing an exhaustive <b>88/88 test suite (100% green)</b>.</li>
+      </ul>
+      <p><code>Model Predictive Control (MPC)</code> • <code>Control Barrier Functions (HOCBF r=2)</code> • <code>AUTOSAR E2E Profile 1</code> • <code>Vector DBC</code> • <code>ISO 8608 Road Roughness</code> • <code>OSQP Solver</code> • <code>Python / C++</code> • <code>88/88 Tests Passed</code></p>
+    </td>
+  </tr>
+</table>
+
 ### 🤖 Autonomous Systems & Robotics
 
 <table width="100%">
