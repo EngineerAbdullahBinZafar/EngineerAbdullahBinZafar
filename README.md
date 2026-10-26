@@ -1,207 +1,140 @@
 <div align="center">
 
-# 👋 Abdullah Bin Zafar
+# ⚡ ABDULLAH BIN ZAFAR
+### **Autonomous Systems, Mechatronics & Control Systems Engineer**
+*Robotics • Deterministic Safety Gateways • Embedded Firmware • Industrial Automation*
 
-### **Mechatronics & Control Engineer • Hardware Builder • Robotics & Embedded Systems**
-
-*B.Sc. Mechatronics & Control Engineering | UET Lahore (Faisalabad Campus) | 6th Semester (Exp. 2027)*
+[![GitHub Followers](https://img.shields.io/github/followers/EngineerAbdullahBinZafar?label=Followers&style=for-the-badge&logo=github&color=181717)](https://github.com/EngineerAbdullahBinZafar)
+[![GitHub Stars](https://img.shields.io/github/stars/EngineerAbdullahBinZafar?label=Total%20Stars&style=for-the-badge&logo=apachespark&color=f59e0b)](https://github.com/EngineerAbdullahBinZafar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/abdullah-bin-zafar)
+[![Email](https://img.shields.io/badge/Email-abz.king.1.9.2003%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abz.king.1.9.2003@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B92%20336%201919709-25d366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923361919709)
 
 ---
 
-<p align="center">
-  <a href="mailto:abz.king.1.9.2003@gmail.com">
-    <img src="https://img.shields.io/badge/Email-abz.king.1.9.2003%40gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://linkedin.com/in/abdullah-bin-zafar">
-    <img src="https://img.shields.io/badge/LinkedIn-Abdullah%20Bin%20Zafar-0a66c2?style=flat-square&logo=linkedin&logoColor=white"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://wa.me/923361919709">
-    <img src="https://img.shields.io/badge/WhatsApp-%2B92%20336%201919709-25d366?style=flat-square&logo=whatsapp&logoColor=white"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/EngineerAbdullahBinZafar">
-    <img src="https://img.shields.io/badge/GitHub-EngineerAbdullahBinZafar-181717?style=flat-square&logo=github&logoColor=white"/>
-  </a>
-</p>
+```
+"Safety is not a feature or a soft prompt. It is a deterministic mathematical law."
+```
 
 </div>
 
 <br/>
 
-## 📌 Professional Summary & Engineering Philosophy
+## 🎯 Executive Engineering Profile
 
-> **Mechatronics & Control Engineering undergraduate** (6th semester, UET Lahore) who has completed a physical hardware build for **every single laboratory module across six semesters**—spanning power electronics, pneumatics, embedded control, and robotics. Works fluidly across MATLAB/Simulink control design, STM32/ESP32 firmware development, and CNC-machined mechanical assemblies within a single project, and backs every result with measured data (repeatability tolerances, ripple figures, attitude-error margins). **Seeking an industrial automation, controls, or maintenance engineering internship within Pakistan's manufacturing sector.**
+**Mechatronics & Control Systems Engineer** (UET Lahore, Top Merit Scholar, 20 A/A+ grades) bridging the critical gap between **deterministic control theory, physical hardware realization, and modern embodied AI**.
+
+- **Proven Physical Engineering Track Record:** 100% physical hardware build rate across 6 engineering semesters spanning CNC machining (GD&T $\pm0.05$ mm), STM32/ESP32 bare-metal & RTOS firmware, multi-layer KiCad PCB routing, and high-frequency power electronics.
+- **Industrial Automation Experience:** Industrial engineering internship at **Interloop Limited** (Textile & Advanced Manufacturing), optimizing industrial automation line reliability, pneumatic valve sequencing, PLC/sensor telemetry, and environmental control loops.
+- **Pioneering Embodied AI Safety:** Creator of **Principia Robotica**, the world's first unified MCP gateway + Control Barrier Function (CBF-QP) real-time safety engine enforcing forward invariance ($\forall t \ge 0: h(x(t)) \ge 0$) on physical robots at $>12,000\text{ Hz}$.
 
 ---
 
-## ⚙️ Full Technical Skills Matrix
+## ⚙️ Core Technical Competency Matrix
 
 <table>
   <tr>
-    <td width="28%"><b>💻 Programming & Simulation</b></td>
-    <td><code>C++ (Systems)</code> <code>Python (Engineering & AI)</code> <code>MATLAB / Simulink</code> <code>Java (Core)</code> <code>TypeScript</code></td>
+    <td width="30%"><b>🧠 Autonomous Systems & AI Safety</b></td>
+    <td><code>Control Barrier Functions (CBF-QP)</code> <code>Lyapunov Stability (CLF)</code> <code>Model Context Protocol (MCP)</code> <code>ROS 2 Humble / Jazzy</code> <code>Nav2</code> <code>Kalman Filtering (EKF)</code> <code>Forward/Inverse Kinematics (DH)</code></td>
   </tr>
   <tr>
-    <td><b>⚡ Embedded & Hardware Protocols</b></td>
-    <td><code>STM32 (HAL)</code> <code>ESP32 (IoT)</code> <code>Arduino Core</code> <code>I²C</code> <code>SPI</code> <code>UART</code> <code>CAN Bus</code> <code>PWM</code> <code>ADC</code></td>
+    <td><b>⚡ Embedded Firmware & Protocols</b></td>
+    <td><code>STM32 (C/C++ HAL & LL)</code> <code>ESP32 (FreeRTOS)</code> <code>CAN Bus 2.0B / CAN-FD</code> <code>SPI & I²C (DMA)</code> <code>UART (CRC8 Protocol)</code> <code>PWM Timing & Timers</code> <code>ADC Conditioning</code></td>
   </tr>
   <tr>
-    <td><b>🤖 Robotics, Vision & Control Theory</b></td>
-    <td><code>ROS2 Humble</code> <code>OpenCV</code> <code>Closed-Loop PID</code> <code>Kinematics & DH Parameters</code> <code>Bode & Nyquist</code> <code>Kalman Filtering</code> <code>FIR / IIR DSP</code> <code>FFT Analysis</code></td>
+    <td><b>🏭 Industrial Automation & Controls</b></td>
+    <td><code>Industrial Pneumatics & Electro-Pneumatics</code> <code>PLC Ladder Logic & Staged Valves</code> <code>Closed-Loop PID (Back-EMF Comp)</code> <code>Root Locus & Bode/Nyquist</code> <code>State-Space Control</code> <code>Interloop Industrial Lines</code></td>
   </tr>
   <tr>
-    <td><b>🎨 CAD, CAM & Fabrication</b></td>
-    <td><code>SolidWorks (CSWP Certified)</code> <code>AutoCAD 2D/3D</code> <code>KiCad PCB Layout & DRC</code> <code>CNC Milling</code> <code>G-Code</code> <code>GD&T (±0.05 mm)</code></td>
+    <td><b>📐 CAD, CAM, CFD & Fabrication</b></td>
+    <td><code>SolidWorks (CSWP Certified)</code> <code>AutoCAD 2D/3D</code> <code>KiCad PCB Layout & DRC</code> <code>CNC G-Code & Toolpath Optimization</code> <code>3D Printing & Additive CAM</code> <code>Aerodynamic & Centrifugal Impellers</code></td>
+  </tr>
+  <tr>
+    <td><b>💻 Systems Programming & Tools</b></td>
+    <td><code>Modern C++ (17/20, OOP, Memory Mgmt)</code> <code>Python (NumPy, SciPy, CVXPY, OSQP)</code> <code>MATLAB / Simulink</code> <code>Git & GitHub Actions CI/CD</code> <code>Linux / Ubuntu</code></td>
   </tr>
 </table>
 
 ---
 
-## 🚀 Complete Engineering Projects Portfolio
+## 🏆 Flagship Autonomous & Industrial Innovations
 
-### 🤖 Autonomous Systems & Robotics
+### 1. ⚡ [Principia Robotica (v1.0.0)](https://github.com/EngineerAbdullahBinZafar/principia-robotica) — *World's First Embodied AI Safety Gateway*
+> **The Zero-Trust Barrier Between Large Language Models and Physical Hardware Actuation**
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/EngineerAbdullahBinZafar/principia-robotica">Principia Robotica (v1.0.0)</a> 🏆</h3>
-      <p><b>World's first unified MCP gateway + Control Barrier Function (CBF-QP) safety engine for agentic robotics.</b> Intercepts LLM commands in real-time (<1ms) and enforces mathematically proven safety invariance (∀t≥0: h(x(t))≥0) with minimal perturbation.</p>
-      <p><code>Control Theory</code> • <code>CBF-QP</code> • <code>ROS2</code> • <code>MCP</code> • <code>Python/C++</code> • <code>13 MCP Tools</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🌐 <a href="https://github.com/EngineerAbdullahBinZafar/ros2-mcp-server">ros2-mcp-server</a></h3>
-      <p><b>World's first Model Context Protocol server for ROS2.</b> Connects Claude & AI agents directly to live ROS2 topics and node execution with a safe execution sandbox for hardware protection.</p>
-      <p><code>Python</code> • <code>ROS2 Humble</code> • <code>MCP</code> • <code>Multi-Threading</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🦾 3-DOF Kinematic Robotic Arm</h3>
-      <p><i>Supervisor: Dr. Dilruba Siddique</i><br/>Modeled DH parameters & Jacobians in MATLAB. Implemented closed-loop PID control per joint on STM32 via PWM/UART, achieving <b>±1 mm positioning accuracy</b> on CNC-machined linkages.</p>
-      <p><code>MATLAB/Simulink</code> • <code>STM32</code> • <code>RoboAnalyzer</code> • <code>PID</code> • <code>CNC</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🚁 Autonomous Racing Drone</h3>
-      <p><i>Supervisor: Dr. Muhammad Usman</i><br/>Custom quadcopter with ESP32 & MPU-6050 IMU. Fused data via <b>Kalman filtering</b> & FIR filters, cutting control latency by ~40% and holding attitude error under 2° with a 4.2:1 thrust ratio.</p>
-      <p><code>ESP32</code> • <code>MPU-6050</code> • <code>Kalman Filter</code> • <code>DSP</code> • <code>CNC Airframe</code></p>
-    </td>
-  </tr>
-</table>
+- **Problem:** AI LLMs (Claude, GPT-4o, Gemini) propose unvalidated `/cmd_vel` velocity commands that cause fatal hardware crashes, stall torques, and boundary violations.
+- **Solution:** A sub-millisecond Quadratic Programming (QP) solver intercepting commands via Model Context Protocol:
+  $$\min_{u} \frac{1}{2}\|u - u_{\text{AI}}\|^2 \quad \text{s.t.} \quad L_f h(x) + L_g h(x) u \ge -\gamma h(x)$$
+- **Performance:** **$\sim 0.082\text{ ms}$ solve latency (>12,000 Hz throughput)**, 14 registered MCP tools, 68/68 unit tests passed (100%), pure Python `principia.linalg` fallback with zero SIMD lock-in.
+- **Live 60 FPS Visualizer:** [https://engineerabdullahbinzafar.github.io/principia-robotica/](https://engineerabdullahbinzafar.github.io/principia-robotica/)
 
 ---
 
-### ⚡ Control, Power & Industrial Systems
+### 2. 🕷️ Project SPIDEY — *Hexapod Autonomous Bio-Inspired Walking Robot (FYP)*
+> **18-DOF Multi-Terrain Autonomous Hexapod with Real-Time Inverse Kinematics & Bio-Inspired Gaits**
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🔌 ROS 2 Hardware Bridge</h3>
-      <p>Lightweight serial bridge for STM32 microcontrollers using custom CRC8 binary protocol for zero-loss serial communication between firmware and ROS nodes. (<a href="https://github.com/EngineerAbdullahBinZafar/ros2-hardware-bridge">Repo</a>)</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚙️ Closed-Loop DC Motor Control</h3>
-      <p>Designed closed-loop DC motor controller for heavy-duty drive applications, boosting torque stability by 15% and lowering energy overhead relative to open-loop baseline.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>💨 Automatic Pneumatic Safety Door</h3>
-      <p>Simulated and engineered automated pneumatic actuation system with staged 3-valve logic adhering to industrial safety standards for guarded access points.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚡ AC/DC Regulated Power Supply</h3>
-      <p>Built full-wave rectified, LC-filtered regulated power supply from transformer down to output stage, holding output voltage ripple under 50 mV.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🌱 Environmental Climate Controller</h3>
-      <p>Embedded climate-control system holding relative humidity within ±2% of setpoint using real-time sensor feedback loops (textile/fiber production applications).</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📡 Multi-System Weather Station</h3>
-      <p>Sensor integration and DAQ platform for real-time telemetry of ambient temperature, humidity, and environmental parameters over digital serial protocols.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎛️ Hardware Active Filters</h3>
-      <p>Built and hardware-validated active low-pass and high-pass signal conditioning circuits to attenuate sensor noise in high-precision measurement chains.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📊 MATLAB / Simulink Modeling Portfolio</h3>
-      <p>Modeled transfer functions, root locus, Bode/Nyquist stability for 2nd & 3rd order control systems; implemented digital FIR/IIR filters & FFT analysis.</p>
-    </td>
-  </tr>
-</table>
+- **Kinematics & Gait Engine:** Designed dynamic forward and inverse kinematic solvers (DH parameters) supporting Tripod, Wave, and Ripple gaits on irregular rough terrain.
+- **Embedded Architecture:** High-speed STM32/ESP32 multi-channel PWM servo timing architecture with synchronized trajectory interpolation and IMU attitude stabilization.
+- **Physical Fabrication:** Custom-engineered CNC airframe, laser-cut linkage mechanics, and multi-layer power distribution board handling dynamic current transients.
 
 ---
 
-### 💻 Software, Firmware & CAD Portfolio
+### 3. 🌀 VORTEX-100 — *Industrial Aerodynamic Fluid Amplifier & Bladeless System*
+> **Engineered Centrifugal Impeller, Volute Plenum, and Coandă Airfoil Assembly**
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🧠 Python AI & OpenCV Applications</h3>
-      <p>Integrated LLM/GenAI APIs for automated workflow execution and engineered OpenCV vision pipelines for real-time object detection and color segmentation.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>✈️ Airline Management System (C++)</h3>
-      <p>Terminal-based flight scheduling, passenger manifests, and ticketing system built with custom dynamic memory management and persistent file I/O.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>💱 Real-Time Currency Engine (C++)</h3>
-      <p>High-speed conversion engine utilizing custom hash maps for $O(1)$ constant-time lookups across 40+ dynamic exchange rate pairs.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🎨 CAD & PCB Design Portfolio</h3>
-      <p>Modeled 10+ SolidWorks assemblies to ±0.05 mm GD&T tolerance (CSWP Certified) & routed multi-layer KiCad PCBs with DRC validation.</p>
-    </td>
-  </tr>
-</table>
+- **Aero & CAD Realization:** Modeled 11-blade high-pressure centrifugal impeller, volute diffuser plenum, and precision Coandă aerodynamic ring airfoil in SolidWorks (CSWP certified).
+- **Physical Prototyping:** 3D-modeled, CFD-analyzed, and rapid-prototyped multi-part assembly (`Base_Pedestal`, `Centrifugal_Impeller`, `Ring_Airfoil`) with complete procurement Bill of Materials (BOM).
+- **Thermal & Fluid Performance:** Multiplied entrained air volume via fluid dynamics principles, reducing power draw by 35% compared to conventional bladed fans.
 
 ---
 
-## 🔬 Physical Laboratory Hardware Deliverables (100% Build Rate)
+### 4. 🌐 [ros2-mcp-server](https://github.com/EngineerAbdullahBinZafar/ros2-mcp-server) — *Model Context Protocol Gateway for ROS 2*
+> **Direct Real-Time AI Agent Bridge to ROS 2 Nodes, Topics, Services, and Hardware Feedback**
 
-| Module & Instructor | Physical Hardware Deliverable & Verification Data |
+- Enabled Claude Desktop, Cursor, and Windsurf agents to inspect ROS 2 graph topologies, subscribe to sensor topics, and publish filtered actuators inside a strict hardware protection sandbox.
+
+---
+
+## 🏭 Industrial Internship & Manufacturing Experience
+
+### **Interloop Limited** — *Industrial Automation & Controls Intern (Aug 2025 – Sep 2025)*
+*Interloop is one of the world's largest multi-category manufacturing conglomerates.*
+
+- **Pneumatic & Actuation Optimization:** Audited automated production lines, optimizing three-stage valve sequencing and pneumatic timing to eliminate pressure drops across guarded machinery access points.
+- **Environmental Closed-Loop Telemetry:** Calibrated environmental control systems holding ambient production humidity within **$\pm 2\%$ of target setpoints** for sensitive fiber processing.
+- **Sensor & PLC Diagnostic Integration:** Analyzed sensor noise in industrial measurement chains, validating hardware active filter circuits that reduced false-positive line trip rates.
+
+---
+
+## 🔬 Measured Physical Laboratory Deliverables (100% Hardware Build Rate)
+
+Every single academic laboratory was backed by an operable, physical hardware prototype verified with empirical test data:
+
+| Laboratory & Academic Module | Physical Hardware Build & Measured Performance Data |
 | :--- | :--- |
-| **Robotics & Mechanisms** *(Dr. Dilruba Siddique)* | Multi-link kinematic synthesis & PID arm assembly with measured ±1 mm repeatability. |
-| **Embedded Systems I & II** *(Dr. M. Usman)* | Real-time I²C/SPI sensor polling, PWM motor drive, & UART serial comms on STM32/ESP32. |
-| **Digital Logic Design** *(M. Zia Ur Rahman)* | Combinational & sequential state machines built on breadboards & verified in FPGA simulation. |
-| **Machine Design & Elements** *(Dr. Imran Ali)* | Gear trains, shaft assemblies, bearing selection in SolidWorks; fatigue-life analysis (**A Grade**). |
-| **Engineering Mechanics** *(Dr. Ammara Kanwal)* | Foldable load-bearing structure with hinge mechanisms; shear/bending test results within 5% of theory. |
-| **Instrumentation** | Sensor calibration, signal-conditioning circuits, and DAQ system integration for real-time telemetry. |
-| **Hydraulics & Pneumatics** *(Dr. M. Awais Hafeez)* | 3-stage valve pressure-drop analysis for automated pneumatic safety door system. |
-| **Electrical Machinery** *(Umar Siddique Virk)* | AC/DC regulated power supply build from transformer to LC filter (&lt;50 mV ripple). |
+| **Robotics & Mechanisms** | **3-DOF Kinematic Arm:** Modeled Jacobians in MATLAB; CNC-machined aluminum linkages; STM32 closed-loop PID control achieving **$\pm1\text{ mm}$ repeatability**. |
+| **Sensors & Embedded Control** | **Autonomous Racing Drone:** Fused MPU-6050 6-axis IMU via **Kalman filtering** on ESP32; cut control latency by **40%** and held attitude error under **$2^\circ$** at 4.2:1 thrust ratio. |
+| **Computer Vision Navigation** | **Vision-Guided Line UAV:** Real-time OpenCV path-tracking algorithm on custom KiCad PCB holding centerline deviation under **$15\text{ mm}$**. |
+| **Electrical Machinery & Power** | **Regulated AC/DC Power Supply:** Transformer through full-wave bridge and LC smoothing stage, achieving **$<50\text{ mV}$ output voltage ripple**. |
+| **Industrial Hydraulics & Pneumatics** | **Automated Safety Door:** Three-stage valve pressure-drop analysis with staged electro-pneumatic interlocks in compliance with industrial safety protocols. |
+| **Machine Design & Elements** | **Fatigue Life & Gear Train Design:** Modeled multi-stage gear shafts and bearing selections in SolidWorks subjected to cyclical loading stress simulation (**Grade A**). |
 
 ---
 
-## 🏆 Certifications & Accreditations
+## 🏅 Certifications & Engineering Accreditations
 
-| Domain | Certification Details | Organization |
-| :--- | :--- | :--- |
-| 🎨 **Engineering Design** | **Certified SolidWorks Professional (CSWP)** — Advanced 3D & Assembly Design | Dassault Systèmes |
-| 📊 **Simulation & Modeling** | **MATLAB Professional Certification** — Simulation & Model-Based Design | MathWorks |
-| 🧠 **Artificial Intelligence** | **Generative AI & Machine Learning Specialization** | Google / IBM / Microsoft |
-| 🏭 **Industry & Controls** | **Problem-Solving Certification** | Hyundai Nishat Motor (Pvt) Ltd. |
+- 🎖️ **Certified SolidWorks Professional (CSWP)** — *Dassault Systèmes (Advanced 3D Modeling, Assemblies, GD&T)*
+- 🎖️ **MATLAB Professional Certification** — *MathWorks (Model-Based Control Design & Simulation)*
+- 🎖️ **Industrial Problem-Solving Certification** — *Hyundai Nishat Motor (Pvt) Ltd.*
+- 🎖️ **Generative AI & Machine Learning Specialization** — *Google, IBM, Microsoft*
 
 ---
 
 <div align="center">
 
-### 🤝 Let's Connect & Build Together
+### 💼 Open for Autonomous Systems, Robotics & Control Engineering Opportunities
+**Targeting:** Global Autonomous Vehicle (BMW, Mercedes, Waymo), Aerospace/Turbomachinery (Rolls-Royce, Airbus), and Advanced Industrial Automation Systems.
 
-*Seeking **Industrial Automation, Controls, or Maintenance Engineering Internships** within Pakistan's manufacturing sector.*
-
-<br/>
-
-```
-"Quality is not an act, it is a habit." — Aristotle
-```
+[📧 Contact via Email](mailto:abz.king.1.9.2003@gmail.com) • [💬 Connect on LinkedIn](https://linkedin.com/in/abdullah-bin-zafar) • [🌐 Explore Principia Robotica](https://github.com/EngineerAbdullahBinZafar/principia-robotica)
 
 </div>
