@@ -201,14 +201,31 @@
 
 ---
 
-## 🏭 Industrial Internship & Manufacturing Experience
+## 🏭 Industrial Experience & Plant Engineering
 
-### **Interloop Limited** — *Industrial Automation & Controls Intern (Aug 2025 – Sep 2025)*
-*Interloop is one of the world's largest multi-category manufacturing conglomerates.*
+### **Interloop Limited** — *Executive Intern Engineer (August 2026 – September 2026)*
+*Interloop Limited is one of the world's premier multi-category apparel & textile manufacturing multinationals, operating high-throughput automated knitting, spinning, and finishing plants.*
 
-- **Pneumatic & Actuation Optimization:** Audited automated production lines, optimizing three-stage valve sequencing and pneumatic timing to eliminate pressure drops across guarded machinery access points.
-- **Environmental Closed-Loop Telemetry:** Calibrated environmental control systems holding ambient production humidity within **$\pm 2\%$ of target setpoints** for sensitive fiber processing.
-- **Sensor & PLC Diagnostic Integration:** Analyzed sensor noise in industrial measurement chains, validating hardware active filter circuits that reduced false-positive line trip rates.
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top">
+      <h4>⚡ Automation & Electro-Pneumatics</h4>
+      <p>Audited high-speed production line pneumatic manifolds and air delivery loops. Optimized 3-stage valve sequencing, reducing pneumatic line pressure drops across machinery guard interlocks and cutting transient cycle delay.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🌡️ Closed-Loop Plant Telemetry</h4>
+      <p>Calibrated environmental instrumentation and HVAC humidity feedback control loops, holding critical yarn/fiber processing atmospheric conditions strictly within <b>±2% relative humidity</b> setpoints across active production halls.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🛠️ Diagnostics, PLC & Reliability</h4>
+      <p>Assisted senior instrumentation engineers in analyzing sensor signal noise on heavy motor drive lines. Tested op-amp active low-pass filtering and sensor conditioning to mitigate false-alarm line trip faults and enhance plant OEE.</p>
+    </td>
+  </tr>
+</table>
+
+- **Department / Focus:** Industrial Automation, Process Instrumentation & Plant Engineering
+- **Engineering Tools & Systems:** Festo / SMC Electro-Pneumatics, Sensor Signal Conditioning & DAQ, Industrial Closed-Loop Control, Root-Cause Failure Analysis (RCFA)
+- **Direct Impact:** Enhanced pneumatic actuation response reliability and verified telemetry data integrity on critical manufacturing machinery.
 
 ---
 
