@@ -41,7 +41,7 @@
       <img src="https://img.shields.io/badge/Interloop%20Limited-Executive%20Intern%20Engineer-f59e0b?style=flat-square&logo=industry&logoColor=white"/>
       <br/><br/>
       <b>Industrial Automation</b><br/>
-      <sub>Aug 26 – Sep 26, 2025 · Plant 2 HD2, Khurrianwala, Faisalabad. Optimized PLC automation, 3-stage valve pneumatic sequencing, closed-loop HVAC humidity control (±2% RH setpoints), and sensor signal conditioning on Wärtsilä V16 34DF 7.8 MW cogeneration plant.</sub>
+      <sub>Aug 26 – Sep 26, 2026 · Plant 2 HD2, Khurrianwala, Faisalabad. Optimized PLC automation, 3-stage valve pneumatic sequencing, closed-loop HVAC humidity control (±2% RH setpoints), and sensor signal conditioning on Wärtsilä V16 34DF 7.8 MW cogeneration plant.</sub>
     </td>
     <td width="33%" align="center" valign="top">
       <br/>
@@ -353,7 +353,7 @@
 
 <div align="center">
 
-### **Executive Intern Engineer** · Aug 26 – Sep 26, 2025
+### **Executive Intern Engineer** · Aug 26 – Sep 26, 2026
 
 *Interloop Limited is one of the world's premier multi-category apparel & textile manufacturing multinationals — operating high-throughput automated knitting, spinning, and finishing plants at global scale.*
 
@@ -416,7 +416,7 @@
 | :--- | :--- |
 | **Department / Facility** | Engineering Department — Plant 2 (HD2), Khurrianwala, Faisalabad |
 | **Role** | Executive Intern Engineer |
-| **Period** | August 26, 2025 – September 26, 2025 (30 days) |
+| **Period** | August 26, 2026 – September 26, 2026 (30 days) |
 | **Industrial Supervisory Committee** | Sir Shahbaaz *(Lead Industrial Supervisor)* · Sir Usama *(Co-Supervisor)* · Sir Amir *(Co-Supervisor)* |
 | **Systems & Machinery Analyzed** | Wärtsilä V16 34DF Tri-Fuel Cogeneration Engine (7.8 MW) · 1,818 Lonati Circular Knitting Robots · Fong's ALLWIN-166 HTHP Dyeing P&ID · Central Air Utilities & Absorption Chillers |
 | **Official Documentation** | 162-page industrial audit report & certified supervisory evaluation rubric — completed and signed off |
