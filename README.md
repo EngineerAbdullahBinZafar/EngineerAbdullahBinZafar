@@ -99,7 +99,7 @@
       <h4>⚡ 5. Finite Field CRC-8 Polynomials — Deterministic Real-Time Comms</h4>
       <p>AUTOSAR E2E Profile 1 Galois Field $\text{GF}(2)$ data protection across high-speed serial/CAN backbones using SAE J1850 polynomial $G(x) = x^8 + x^4 + x^3 + x^2 + 1$ ($0\text{x}1\text{D}$):</p>
       $$\text{CRC}(x) = \left( x^8 M(x) \oplus x^{8(L+3)} \sum_{i=0}^7 x^i \right) \bmod G(x) \oplus \sum_{i=0}^7 x^i$$
-      <p>For payloads $L \le 64$ bytes, polynomial $G(x)$ strictly guarantees Hamming Distance $d_{\min} \ge 4$ (100% detection of 1/2/3-bit errors and burst errors $b \le 8$ bits; 99.61% for $b > 8$). Implemented as an $O(1)$ constant-time lookup table executing in $&lt;35\,\mu\text{s}$ on ARM Cortex-M4.</p>
+      <p>Full <b>AUTOSAR E2E Profile 1 protocol framing</b> encapsulates short telemetry frames ($L \le 8$ bytes) with a 4-bit monotonic sequence counter, Data ID, and SAE J1850 CRC-8 over Galois Field $\text{GF}(2)$, ensuring $d_{\min} \ge 4$ fault detection. The primitive polynomial $G(x)$ features maximal period $2^8 - 1 = 255$ bits, guaranteeing 100% detection of burst errors $b \le 8$ bits and $99.61\%$ ($1 - 2^{-8}$) of burst errors $b > 8$ bits. Implemented as an $O(1)$ constant-time lookup table executing in $< 35\,\mu\text{s}$ on ARM Cortex-M4.</p>
       <sub><b>Realization:</b> <code>ros2-hardware-bridge</code> (<code>firmware/ros2_bridge.h</code>) · STM32F4 / RP2040 · Zero packet loss</sub>
     </td>
   </tr>
@@ -157,9 +157,9 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
    $$\mathbf{x}(0) \in \mathcal{C} \implies \mathbf{x}(t) \in \mathcal{C} \quad \forall t \ge 0, \quad \mathcal{C} = \{\mathbf{x} \in \mathbb{R}^n : h(\mathbf{x}) \ge 0\}$$
 
 3. **Tier 3 (AUTOSAR E2E Profile 1 Integrity & CRC-8)**:
-   Serial telemetry is protected by the SAE J1850 generator polynomial over $\text{GF}(2)$:
-   $$G(x) = x^8 + x^4 + x^3 + x^2 + 1 \quad (\text{Hex: } 0\text{x}1\text{D}), \quad d_{\min} \ge 4$$
-   guaranteeing 100% detection of single, double, and triple-bit errors and burst errors up to 8 bits.
+   Serial telemetry framing combines a 4-bit monotonic sequence counter, Data ID, and the SAE J1850 primitive generator polynomial over $\text{GF}(2)$:
+   $$G(x) = x^8 + x^4 + x^3 + x^2 + 1 \quad (\text{Hex: } 0\text{x}1\text{D}), \quad \text{Period } T = 2^8 - 1 = 255\text{ bits}$$
+   AUTOSAR E2E Profile 1 protocol framing guarantees $d_{\min} \ge 4$ fault detection for short telemetry frames ($L \le 8$ bytes), while primitive $G(x)$ ensures 100% detection of burst errors $b \le 8$ bits and $99.61\%$ ($1 - 2^{-8}$) of burst errors $b > 8$ bits.
 
 4. **Tier 4 (Stochastic Fault Injection & Reliability)**:
    Continuous sensor channels are perturbed via Additive White Gaussian Noise (AWGN):
@@ -300,7 +300,7 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
         <img src="https://img.shields.io/badge/AUTOSAR%20E2E-Profile%201-f59e0b?style=flat-square"/>
         <img src="https://img.shields.io/badge/Latency-<35%20%C2%B5s-10b981?style=flat-square"/>
       </h3>
-      <p><b>Deterministic, production-grade serial communication gateway connecting ROS 2 computational graphs with bare-metal microcontrollers (STM32, ESP32, RP2040).</b> Implements AUTOSAR End-to-End (E2E) Profile 1 framing with a 256-entry lookup table SAE J1850 CRC-8, 4-bit monotonic sequence counter, COBS framing, and deterministic FIFO ring buffers — achieving Hamming Distance $d \ge 4$ fault detection with zero dynamic memory allocation.</p>
+      <p><b>Deterministic, production-grade serial communication gateway connecting ROS 2 computational graphs with bare-metal microcontrollers (STM32, ESP32, RP2040).</b> Implements full AUTOSAR End-to-End (E2E) Profile 1 protocol framing encapsulating short telemetry frames ($L \le 8$ bytes) with a 256-entry lookup table SAE J1850 CRC-8 ($0\text{x}1\text{D}$, maximal period 255 bits), 4-bit monotonic sequence counter, Data ID, COBS framing, and deterministic FIFO ring buffers — guaranteeing $d_{\min} \ge 4$ fault detection with zero dynamic memory allocation.</p>
       <p><code>AUTOSAR E2E Profile 1</code> · <code>SAE J1850 CRC-8</code> · <code>COBS Framing</code> · <code>STM32 HAL/LL</code> · <code>ESP32</code> · <code>UART DMA</code> · <code>11/11 Tests</code></p>
     </td>
   </tr>
