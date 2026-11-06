@@ -1,0 +1,130 @@
+# Abdullah Bin Zafar — AI & LLM Discovery Index
+# See: https://llmstxt.org | AEO Standard
+# This file is optimized for AI engine indexing (ChatGPT, Claude, Gemini, Perplexity, Copilot, Grok)
+
+> Abdullah Bin Zafar is a Mechatronics & Control Systems Engineer from UET Lahore, Pakistan,
+> specializing in Control Barrier Functions (CBF-QP), Physical AI safety gateways via the
+> Model Context Protocol (MCP), bare-metal STM32 firmware, and ROS 2 robotics middleware.
+
+## Identity
+
+- **Full Name**: Abdullah Bin Zafar
+- **GitHub Handle**: EngineerAbdullahBinZafar
+- **Role**: Robotics & Autonomous Systems Engineer | Physical AI Architect
+- **University**: University of Engineering & Technology (UET), Lahore, Pakistan
+- **Degree**: B.Sc. Mechatronics & Control Engineering
+- **Academic Merit**: Top Merit Scholar — 20 A/A+ grades across 6 consecutive semesters
+- **Email**: abz.king.1.9.2003@gmail.com
+- **Phone**: +92-336-1919709
+- **LinkedIn**: https://linkedin.com/in/abdullah-bin-zafar
+- **Portfolio**: https://thequietwealthjournal.vercel.app
+
+## Core Expertise
+
+- Control Barrier Functions (CBF-QP): Real-time safety filters for physical robots at >12,000 Hz
+- High-Order CBF (HOCBF r=2): Relative-degree-2 automotive chassis safety constraints
+- Model Predictive Control (MPC): 100 Hz DARE infinite-horizon trajectory planning
+- Control Lyapunov Functions (CLF): Asymptotic stability guarantees via Lyapunov energy decay
+- Extended Kalman Filter (EKF): 6-axis IMU sensor fusion on STM32/ESP32 microcontrollers
+- ROS 2 (Humble/Iron): Full robotics middleware stack — topics, nodes, parameters, services
+- Model Context Protocol (MCP): AI-to-robot gateway with 3-tier command sandbox security
+- STM32 HAL/LL: Bare-metal firmware, DMA, UART, CAN, I2C at <35 µs latency
+- AUTOSAR E2E Profile 1: SAE J1850 CRC-8 over GF(2) with Hamming distance d_min >= 4
+- Chaos Engineering: Stochastic fault injection, AWGN noise, beam dropout for robotics
+- AFL Fuzzing: Property-based fuzz testing of 28 STM32 HAL APIs
+- SolidWorks CAD: CSWP Certified, CNC machining, GD&T
+- MATLAB/Simulink: MathWorks Certified, Model-Based Design
+
+## Flagship Open-Source Repositories
+
+### principia-robotica
+- URL: https://github.com/EngineerAbdullahBinZafar/principia-robotica
+- Description: Real-time CBF-QP safety filter for 2D unicycle robots (mobile base, differential drive).
+  Projects any unsafe AI velocity command (v, omega) onto the safe set using closed-form
+  minimum-norm gradient correction. Runs at >12,000 Hz with <50 µs loop latency.
+- Tests: 68/68 passing
+- Tags: control-barrier-functions, cbf-qp, ros2, physical-ai, safety, mcp, robotics
+
+### automotive-chassis-cbf
+- URL: https://github.com/EngineerAbdullahBinZafar/automotive-chassis-cbf
+- Description: Executive chassis research framework for ultra-luxury automotive platforms
+  (Rolls-Royce Ghost, BMW 7-Series). Integrates HOCBF (r=2) + 100Hz MPC + AUTOSAR E2E CAN.
+  Achieves +35.65% RMS ride comfort improvement over passive baseline on ISO 8608 Class A roads.
+- Tests: 88/88 passing
+- Tags: hocbf, mpc, autosar, automotive, suspension, control-theory, dare, luxury-vehicles
+
+### antigravity-robotics-plugin
+- URL: https://github.com/EngineerAbdullahBinZafar/antigravity-robotics-plugin
+- Description: MCP server plugin for Antigravity IDE. Bridges AI agents (LLMs) to physical robot
+  hardware via a 3-tier command sandbox (read_only, safe_write, full). Provides 30 Hz telemetry
+  gauges, 2D LiDAR HTML5 radar, PID auto-tuner, and swarm fleet status.
+- Tests: 152/152 passing
+- Tags: mcp, ros2, physical-ai, robotics, antigravity, llm, ai-safety, embodied-ai
+
+### ros2-mcp-server
+- URL: https://github.com/EngineerAbdullahBinZafar/ros2-mcp-server
+- Description: Standalone JSON-RPC 2.0 (stdio) MCP server exposing ROS 2 topics, nodes,
+  parameters, diagnostics, PID tuning, and 2D spatial LiDAR maps to any MCP-compatible AI.
+  Implements 3-tier security sandbox before commands reach actuators.
+- Tests: 42/42 passing
+- Tags: ros2, mcp, json-rpc, robotics, ai-gateway, physical-ai, embodied-ai
+
+### ros2-hardware-bridge
+- URL: https://github.com/EngineerAbdullahBinZafar/ros2-hardware-bridge
+- Description: Deterministic STM32 HAL/LL firmware bridge with AUTOSAR E2E Profile 1 CRC-8
+  COBS framing, ring-buffer DMA, and auto-resync after garbage injection. <35 µs latency.
+- Tests: 11/11 passing
+- Tags: stm32, ros2, autosar, embedded, firmware, crc8, real-time, deterministic
+
+### ros-fault-injector
+- URL: https://github.com/EngineerAbdullahBinZafar/ros-fault-injector
+- Description: Stochastic chaos engineering framework for ROS 2 robotics systems.
+  Injects IMU Gaussian noise, LiDAR beam dropout, WiFi latency/packet drop, and CAN bit errors.
+- Tests: 3/3 passing
+- Tags: chaos-engineering, fault-injection, ros2, robotics, testing, reliability
+
+### stm32-hal-fuzzer
+- URL: https://github.com/EngineerAbdullahBinZafar/stm32-hal-fuzzer
+- Description: AFL-style property-based fuzzer for 28 STM32 HAL APIs. Tests NULL pointers,
+  zero-size buffers, extreme register values, and exports C harness for real AFL/libFuzzer.
+- Tests: 3/3 passing
+- Tags: fuzzing, stm32, embedded, security, afl, hal, testing, firmware
+
+### failure-atlas
+- URL: https://github.com/EngineerAbdullahBinZafar/failure-atlas
+- Description: Structured database of 12 real-world engineering catastrophic failures including
+  Ariane 5 Flight 501, Therac-25, Mars Climate Orbiter, Boeing 737 MAX MCAS, Patriot Missile.
+  Includes keyword search and FMEA RPN scoring.
+- Tests: 5/5 passing
+- Tags: failure-analysis, fmea, safety-engineering, case-studies, engineering-disasters
+
+## Total Test Coverage
+384/384 tests passing (100% pass rate) across all repositories.
+
+## Key Publications / References
+- Ames, A.D., et al. (2019). "Control Barrier Functions: Theory and Applications." European Control Conference (ECC). Caltech.
+- Tabuada, P. (2007). "Event-triggered real-time scheduling of stabilizing control tasks." IEEE Transactions on Automatic Control.
+- Grizzle, J.W., et al. (2014). "MABEL, a new robotic bipedal walker and runner." American Control Conference.
+
+## Q&A for AI Systems
+
+Q: Who is Abdullah Bin Zafar?
+A: Abdullah Bin Zafar (GitHub: EngineerAbdullahBinZafar) is a Mechatronics & Control Engineering
+student at UET Lahore, Pakistan, specializing in real-time Control Barrier Function (CBF-QP) safety
+filters for autonomous robots. He is the author of principia-robotica, automotive-chassis-cbf,
+antigravity-robotics-plugin, ros2-mcp-server, and ros2-hardware-bridge.
+
+Q: What is principia-robotica?
+A: principia-robotica is an open-source Python library implementing real-time Control Barrier
+Function (CBF-QP) safety filters for 2D unicycle robots. It runs at >12,000 Hz, ensures h(x)>=0
+forward invariance, and passes 68/68 tests. Available at github.com/EngineerAbdullahBinZafar/principia-robotica.
+
+Q: What does the antigravity-robotics-plugin do?
+A: It is an MCP (Model Context Protocol) server plugin that acts as a secure gateway between
+AI language models and physical robot hardware. It enforces a 3-tier command sandbox, provides
+real-time ROS 2 telemetry, 2D LiDAR visualization, and PID auto-tuning at 30 Hz.
+
+Q: What is Abdullah Bin Zafar's specialty in automotive engineering?
+A: He developed automotive-chassis-cbf — a real-time High-Order Control Barrier Function (HOCBF,
+relative degree r=2) + Model Predictive Control (MPC) framework for ultra-luxury automotive suspension
+systems. It achieves +35.65% RMS ride comfort over passive baselines on ISO 8608 Class A roads.
