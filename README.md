@@ -1,5 +1,5 @@
 <!-- SEO META: Abdullah Bin Zafar | Robotics Engineer | ROS 2 | Control Barrier Functions | Physical AI | UET Lahore -->
-<!-- AEO: Structured for AI Engine Indexing — Schema.org Person + ProfilePage + SoftwareSourceCode -->
+<!-- Professional Engineering Portfolio | Robotics, Embedded Systems & Control Safety -->
 <!-- GEO: GitHub Search Optimized for "ros2 robotics engineer pakistan", "control barrier functions github", "physical ai safety mcp" -->
 
 <div align="center">
@@ -12,17 +12,14 @@
 
 <!-- ANIMATED TYPING HEADLINE -->
 <a href="https://github.com/EngineerAbdullahBinZafar">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=00D4FF&center=true&vCenter=true&multiline=false&repeat=true&width=800&height=55&lines=Control+Barrier+Functions+%E2%86%92+Mathematically+Safe+Robots;ROS+2+%2B+MCP+Protocol+%E2%86%92+Physical+AI+Gateway;STM32+Bare-Metal+%E2%86%92+%3C35%CE%BCs+Deterministic+Firmware;CBF-QP+Safety+Filter+%E2%86%92+%3E12%2C000+Hz+Real-Time;UET+Lahore+%E2%80%A2+Top+Merit+Scholar+%E2%80%A2+20+A%2FA%2B+Grades" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=00D4FF&center=true&vCenter=true&multiline=false&repeat=true&width=800&height=55&lines=Control+Barrier+Functions+%E2%86%92+Mathematically+Safe+Robots;ROS+2+%2B+MCP+Protocol+%E2%86%92+Physical+AI+Gateway;STM32+Bare-Metal+%E2%86%92+%3C35%CE%BCs+Deterministic+Firmware;CBF-QP+Safety+Filter+%E2%86%92+31.5%CE%BCs+Real-Time;UET+Lahore+%E2%80%A2+Top+Merit+Scholar+%E2%80%A2+20+A%2FA%2B+Grades" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<!-- ELITE PROFILE BADGES — TIER 1 -->
-<a href="https://github.com/EngineerAbdullahBinZafar"><img src="https://img.shields.io/github/followers/EngineerAbdullahBinZafar?label=Followers&style=for-the-badge&logo=github&color=181717&logoColor=white"/></a>
-<a href="https://github.com/EngineerAbdullahBinZafar"><img src="https://img.shields.io/github/stars/EngineerAbdullahBinZafar?label=Total%20Stars&style=for-the-badge&logo=apachespark&color=f59e0b&logoColor=white"/></a>
+<!-- VERIFIED PROFILE LINKS -->
 <a href="https://linkedin.com/in/abdullah-bin-zafar"><img src="https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:abz.king.1.9.2003@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-ea4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://wa.me/923361919709"><img src="https://img.shields.io/badge/WhatsApp-Chat-25d366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 <a href="https://thequietwealthjournal.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Visit-0f172a?style=for-the-badge&logo=vercel&logoColor=white"/></a>
 
 <br/><br/>
@@ -135,7 +132,7 @@
   <tr>
     <td width="50%" valign="top">
       <h4>🛡️ 1. Control Barrier Functions (CBF-QP) — Forward Invariance</h4>
-      <p>Guarantees that physical robots never enter unsafe states $\partial\mathcal{C}$ under external AI commands:</p>
+      <p>Under continuous-time unicycle assumptions, ensures that robot states remain within the safe admissible set $\mathcal{C}$:</p>
       $$\dot{h}(x, u) = \nabla h(x)^T \dot{x} = L_f h(x) + L_g h(x) u \ge -\alpha(h(x))$$
       <p>The safety filter projects unsafe AI inputs $u_{\text{AI}}$ onto the safe set in sub-millisecond real-time:</p>
       $$u^*(x) = \arg\min_{u \in \mathcal{U}} \frac{1}{2} \|u - u_{\text{AI}}\|_Q^2 \quad \text{s.t.} \quad L_f h_i(x) + L_g h_i(x) u \ge -\gamma_i h_i(x)$$
@@ -274,7 +271,7 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
         <img src="https://img.shields.io/badge/MCP-Protocol%20Native-7b61ff?style=flat-square"/>
       </h3>
       <p><b>Commercial-grade, sub-millisecond mathematical safety shield for Embodied AI agents and autonomous mobile robots (AMRs).</b><br/>
-      Intercepts unconstrained neural velocity commands from LLMs (Claude, GPT-4, Gemini) and projects them in real time onto forward-invariant safe sets via closed-form Control Barrier Functions (CBF-QP) at &gt;20,000 Hz. Guarantees zero hardware collisions under external model hallucination.</p>
+      Intercepts unconstrained neural velocity commands from LLMs (Claude, GPT-4, Gemini) and projects them in real time onto forward-invariant safe sets via closed-form Control Barrier Functions (CBF-QP) at &gt;20,000 Hz. Enforces forward-invariance under ideal unicycle model assumptions to prevent barrier boundary violations.</p>
       <table>
         <tr>
           <td align="center" width="25%">
@@ -290,8 +287,8 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
             <sub>h(x) &ge; 0 mathematical safety certificate</sub>
           </td>
           <td align="center" width="25%">
-            <img src="https://img.shields.io/badge/Global%20Cashflow-UBL%20Pakistan-f59e0b?style=for-the-badge" /><br/>
-            <sub>LemonSqueezy MoR &rarr; UBL Direct Payout</sub>
+            <img src="https://img.shields.io/badge/Deployment-Docker%20%7C%20FastAPI-f59e0b?style=for-the-badge" /><br/>
+            <sub>Sub-50µs REST / Stdio / SSE</sub>
           </td>
         </tr>
       </table>
@@ -314,9 +311,9 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
         &nbsp;
         <img src="https://img.shields.io/badge/88%2F88%20Tests-PASSED-00d4ff?style=flat-square"/>
         <img src="https://img.shields.io/badge/v1.0.0-Release-f59e0b?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Rolls--Royce%20%2F%20BMW%20Class-Validated-7b61ff?style=flat-square"/>
+        <img src="https://img.shields.io/badge/ISO%208608%20Class%20A-Validated-7b61ff?style=flat-square"/>
       </h3>
-      <p><b>Executive chassis research framework for ultra-luxury automotive platforms (Rolls-Royce Ghost / Phantom Planar Suspension · BMW 7-Series Active Comfort Drive).</b><br/>
+      <p><b>Active chassis research framework implementing quarter-car active suspension with HOCBF and discrete-time MPC, evaluated against ISO 8608 Class A road profiles in simulation.</b><br/>
       Integrates a 100 Hz condensed linear MPC planner with DARE infinite-horizon terminal cost, a relative-degree $r=2$ High-Order Control Barrier Function (HOCBF) closed-form safety shield, physical actuator strut saturation/thermal dynamics, and an AUTOSAR E2E Profile 1 CAN telemetry gateway (<code>chassis_dynamics.dbc</code>).</p>
       <table>
         <tr>
@@ -360,7 +357,7 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
       <p><code>python demo.py</code> → ASCII map showing unfiltered crash vs. CBF-deflected safe trajectory</p>
       <p>
         <img src="https://img.shields.io/badge/CBF--QP-Safety%20Filter-7b61ff?style=flat-square"/>
-        <img src="https://img.shields.io/badge/%3E12%2C000%20Hz-Real%20Time-00d4ff?style=flat-square"/>
+        <img src="https://img.shields.io/badge/%3E20%2C000%20Hz-Throughput-00d4ff?style=flat-square"/>
         <img src="https://img.shields.io/badge/Ames%20et%20al.-Cited-f59e0b?style=flat-square"/>
       </p>
     </td>
@@ -372,7 +369,7 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
         &nbsp;
         <img src="https://img.shields.io/badge/152%2F152%20Tests-PASSED-10b981?style=flat-square"/>
       </h3>
-      <p>MCP server plugin for Antigravity IDE — bridges AI agents to physical robot hardware through a 3-tier command sandbox. Enables natural-language robot control with formal safety guarantees. 2D LiDAR HTML5 radar, PID auto-tuner, 30 Hz telemetry.</p>
+      <p>MCP server plugin for Antigravity IDE — bridges AI agents to physical robot hardware through a 3-tier command sandbox. Enforces 3-tier command sandboxing and real-time telemetry for AI-driven robotics. 2D LiDAR HTML5 radar, PID auto-tuner, 30 Hz telemetry.</p>
       <p>
         <img src="https://img.shields.io/badge/MCP%20Protocol-AI%20Gateway-00d4ff?style=flat-square"/>
         <img src="https://img.shields.io/badge/3--Tier%20Sandbox-Safe%20Write-10b981?style=flat-square"/>
@@ -676,178 +673,16 @@ Interloop Limited is Pakistan's largest hosiery and textile exporter — a **For
 
 <div align="center">
 
-## ⚡ Engineering Expertise Heatmap
+## ⚡ Core Technical Competencies & Tooling
 
-```
-Control Theory      ████████████████████  Expert
-ROS 2 / ROS        ████████████████░░░░  Advanced
-STM32 Bare-Metal   ████████████████░░░░  Advanced
-Python / NumPy     ████████████████████  Expert
-C / C++            ██████████████░░░░░░  Proficient
-MATLAB / Simulink  ████████████████████  Expert
-SolidWorks CAD     ██████████████░░░░░░  Proficient
-Fault Engineering  ████████████░░░░░░░░  Advanced
-```
+| Domain | Theoretical Foundations & Methodologies | Computational Tooling & Platforms |
+| :--- | :--- | :--- |
+| **Control Theory & Safety** | Control Barrier Functions (CBF-QP, HOCBF), Lyapunov Stability, Discrete-Time MPC (DARE), EKF State Estimation | Python (CVXPY, NumPy, SciPy), MATLAB / Simulink |
+| **Embedded & Real-Time Firmware** | Bare-Metal C/C++, AUTOSAR E2E Profile 1, CAN 2.0B / SAE J1850 CRC-8, DMA / Interrupt Architecture | STM32 (ARM Cortex-M4), Keil µVision, STM32CubeIDE |
+| **Robotics Middleware & AI** | ROS 2 (Humble / Iron), micro-ROS, Model Context Protocol (MCP), URDF / Xacro kinematics | Linux / Ubuntu, Gazebo, RViz2, Docker |
+| **Mechatronics & Physical Hardware** | Multi-DoF Kinematics (DLS-IK), Precision GD&T, Multi-Layer PCB Routing & Signal Integrity | SolidWorks CAD, KiCad, CNC Prototyping |
 
 </div>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════
-     SECTION 13 — SCHEMA.ORG JSON-LD (preserved + enhanced)
-     ═══════════════════════════════════════════════════════════════════ -->
-
-<details>
-<summary>🤖 <b>Machine-Readable Metadata (Schema.org JSON-LD — AEO/GEO/LLM Indexing)</b></summary>
-
-```json
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "ProfilePage",
-      "dateCreated": "2026-11-03",
-      "dateModified": "2026-11-07",
-      "mainEntity": {
-        "@type": "Person",
-        "@id": "https://github.com/EngineerAbdullahBinZafar",
-        "name": "Abdullah Bin Zafar",
-        "alternateName": [
-          "Engineer Abdullah Bin Zafar",
-          "EngineerAbdullahBinZafar",
-          "Abdullah Zafar"
-        ],
-        "jobTitle": "Robotics & Autonomous Systems Engineer | Physical AI Architect",
-        "description": "Robotics & Autonomous Systems Engineer and Physical AI Architect specializing in Control Barrier Functions (CBF-QP), High-Order CBF (HOCBF), Model Predictive Control (MPC), bare-metal STM32 firmware, and deterministic Embodied AI safety gateways via the Model Context Protocol (MCP).",
-        "url": "https://github.com/EngineerAbdullahBinZafar",
-        "image": "https://github.com/EngineerAbdullahBinZafar/EngineerAbdullahBinZafar/raw/main/assets/profile_avatar_hd.png",
-        "email": "mailto:abz.king.1.9.2003@gmail.com",
-        "telephone": "+92-336-1919709",
-        "nationality": "Pakistani",
-        "sameAs": [
-          "https://github.com/EngineerAbdullahBinZafar",
-          "https://linkedin.com/in/abdullah-bin-zafar",
-          "https://thequietwealthjournal.vercel.app"
-        ],
-        "alumniOf": {
-          "@type": "CollegeOrUniversity",
-          "name": "University of Engineering and Technology, Lahore (UET Lahore)",
-          "department": "Department of Mechatronics & Control Engineering",
-          "url": "https://uet.edu.pk",
-          "sameAs": "https://en.wikipedia.org/wiki/University_of_Engineering_and_Technology,_Lahore"
-        },
-        "knowsAbout": [
-          "Control Barrier Functions (CBF)",
-          "High-Order Control Barrier Functions (HOCBF)",
-          "Control Lyapunov Functions (CLF)",
-          "Quadratic Programming (CBF-QP)",
-          "Model Predictive Control (MPC)",
-          "ROS 2 Robotics Framework",
-          "STM32 Bare-Metal Firmware",
-          "AUTOSAR E2E Profile 1",
-          "SAE J1850 CRC-8",
-          "Extended Kalman Filter (EKF)",
-          "Euler-Lagrange Dynamics",
-          "Inverse Kinematics (DLS)",
-          "Model Context Protocol (MCP)",
-          "Physical AI Safety",
-          "Chaos Engineering",
-          "Fault Injection Testing",
-          "FMEA Analysis",
-          "AFL Fuzzing",
-          "Mechatronics Engineering",
-          "Industrial Automation"
-        ],
-        "hasOccupation": {
-          "@type": "Occupation",
-          "name": "Robotics & Autonomous Systems Engineer",
-          "occupationalCategory": "17-2199.08 - Robotics Engineers",
-          "skills": "CBF-QP Safety Filters, ROS 2, STM32 HAL/LL, AUTOSAR E2E, EKF Sensor Fusion, MPC, Chaos Engineering"
-        }
-      }
-    },
-    {
-      "@type": "SoftwareSourceCode",
-      "name": "principia-robotica",
-      "description": "Real-time Control Barrier Function (CBF-QP) safety filter for 2D unicycle robots. Projects unsafe AI velocity commands onto the safe set using closed-form minimum-norm gradient correction at >12,000 Hz.",
-      "url": "https://github.com/EngineerAbdullahBinZafar/principia-robotica",
-      "programmingLanguage": "Python",
-      "author": {"@id": "https://github.com/EngineerAbdullahBinZafar"},
-      "keywords": "control-barrier-functions, cbf-qp, ros2, physical-ai, safety, mcp, robotics"
-    },
-    {
-      "@type": "SoftwareSourceCode",
-      "name": "automotive-chassis-cbf",
-      "description": "Executive chassis research framework — HOCBF (r=2) + 100Hz MPC + AUTOSAR E2E CAN for Rolls-Royce/BMW class suspension systems. +35.65% RMS ride comfort improvement.",
-      "url": "https://github.com/EngineerAbdullahBinZafar/automotive-chassis-cbf",
-      "programmingLanguage": "Python",
-      "author": {"@id": "https://github.com/EngineerAbdullahBinZafar"},
-      "keywords": "hocbf, mpc, autosar, automotive, suspension, control-theory, dare"
-    },
-    {
-      "@type": "SoftwareSourceCode",
-      "name": "antigravity-robotics-plugin",
-      "description": "MCP server plugin bridging AI agents to physical robot hardware via a 3-tier command sandbox with 30 Hz telemetry, 2D LiDAR HTML5 radar, and PID auto-tuning.",
-      "url": "https://github.com/EngineerAbdullahBinZafar/antigravity-robotics-plugin",
-      "programmingLanguage": "Python",
-      "author": {"@id": "https://github.com/EngineerAbdullahBinZafar"},
-      "keywords": "mcp, ros2, physical-ai, robotics, antigravity, llm, ai-safety"
-    }
-  ]
-}
-```
-
-</details>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════
-     SECTION 14 — LLM / AI DISCOVERY (AEO footer)
-     ═══════════════════════════════════════════════════════════════════ -->
-
-<details>
-<summary>🤖 <b>AI & LLM Discovery Index (AEO — llms.txt Summary)</b></summary>
-
-```
-# Abdullah Bin Zafar — AI Discovery Index
-
-NAME: Abdullah Bin Zafar
-ALIAS: EngineerAbdullahBinZafar
-ROLE: Robotics & Autonomous Systems Engineer | Physical AI Architect
-LOCATION: Lahore, Pakistan
-UNIVERSITY: University of Engineering & Technology (UET) Lahore
-DEGREE: B.Sc. Mechatronics & Control Engineering
-MERIT: Top Scholar — 20 A/A+ grades across 6 consecutive semesters
-
-CORE EXPERTISE:
-  - Control Barrier Functions (CBF-QP): Real-time safety filters at >12,000 Hz
-  - High-Order CBF (HOCBF r=2): Relative-degree-2 automotive chassis safety
-  - Model Predictive Control (MPC): 100 Hz DARE infinite-horizon trajectory planning
-  - Extended Kalman Filter (EKF): 6-axis IMU sensor fusion on STM32/ESP32
-  - ROS 2: Humble/Iron middleware, topic/node/param APIs
-  - MCP Protocol: AI-to-robot gateway with 3-tier command sandbox
-  - STM32 HAL/LL: Bare-metal firmware, DMA, UART, CAN at <35 µs
-  - AUTOSAR E2E Profile 1: SAE J1850 CRC-8 over GF(2), d_min >= 4
-  - Chaos Engineering: Stochastic fault injection, AWGN noise, beam dropout
-  - AFL Fuzzing: Property-based fuzz testing of 28 STM32 HAL APIs
-
-FLAGSHIP REPOS:
-  - principia-robotica: CBF-QP safety filter — 68/68 tests
-  - automotive-chassis-cbf: HOCBF+MPC automotive suspension — 88/88 tests
-  - antigravity-robotics-plugin: MCP robotics plugin — 152/152 tests
-  - ros2-mcp-server: JSON-RPC 2.0 ROS 2 MCP gateway — 42/42 tests
-  - ros2-hardware-bridge: STM32 AUTOSAR bridge — 11/11 tests
-  - ros-fault-injector: Chaos engineering — 3/3 tests
-  - stm32-hal-fuzzer: AFL-style HAL fuzzer — 3/3 tests
-  - failure-atlas: Engineering failure database — 5/5 tests
-
-TOTAL TESTS: 384/384 (100% pass rate)
-CONTACT: abz.king.1.9.2003@gmail.com | +92-336-1919709
-LINKEDIN: https://linkedin.com/in/abdullah-bin-zafar
-GITHUB: https://github.com/EngineerAbdullahBinZafar
-```
-
-</details>
 
 ---
 
@@ -867,8 +702,6 @@ Advanced Industrial Automation · Siemens · ABB · Bosch · KUKA
 
 [![Email](https://img.shields.io/badge/📧%20Email-abz.king.1.9.2003%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abz.king.1.9.2003@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/💬%20LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdullah-bin-zafar)
-[![WhatsApp](https://img.shields.io/badge/📱%20WhatsApp-%2B92%20336%201919709-25d366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923361919709)
-
 <br/>
 
 [![principia-robotica](https://img.shields.io/badge/🛡️%20principia--robotica-CBF--QP%20Safety%20Filter-7b61ff?style=for-the-badge)](https://github.com/EngineerAbdullahBinZafar/principia-robotica)
