@@ -44,7 +44,7 @@
 
 <div align="center">
 
-## ◈ EXECUTIVE ENGINEERING PROFILE
+<img src="assets/headers/header_executive_profile.svg" width="100%" alt="Section 01: Executive Engineering Profile"/>
 
 </div>
 
@@ -84,7 +84,7 @@
 
 <div align="center">
 
-## 🛠️ Technology Arsenal
+<img src="assets/headers/header_tech_arsenal.svg" width="100%" alt="Section 02: Technology Arsenal"/>
 
 <br/>
 
@@ -124,7 +124,9 @@
      SECTION 3 — MATHEMATICAL FOUNDATIONS (preserved)
      ═══════════════════════════════════════════════════════════════════ -->
 
-## 📐 Mathematical Foundations & Formal Control Theorems
+<div align="center">
+  <img src="assets/headers/header_mathematical_foundations.svg" width="100%" alt="Section 03: Mathematical Foundations and Formal Control Theorems"/>
+</div>
 
 > *"Safety is not a feature or a soft prompt. It is a deterministic mathematical law."*  
 > Across all engineered systems, high-level AI directives are certified through formal non-linear control theory, Lyapunov stability, state estimation, and Galois field embedded communications.
@@ -184,7 +186,9 @@
      SECTION 4 — 4-TIER ARCHITECTURE (preserved)
      ═══════════════════════════════════════════════════════════════════ -->
 
-## 🏛️ Unified 4-Tier Cyber-Physical Systems Architecture
+<div align="center">
+  <img src="assets/headers/header_cyber_physical_arch.svg" width="100%" alt="Section 04: Unified 4-Tier Cyber-Physical Systems Architecture"/>
+</div>
 
 Modern autonomous robotics and Physical AI require deterministic safety guarantees from cloud AI down to bare-metal silicon. The standard paradigm of treating physical actuators as unconstrained API endpoints introduces catastrophic failure modes. Safety cannot be treated as a heuristic or soft prompt; **safety must be enforced as a mathematically invariant law**.
 
@@ -249,7 +253,54 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
      SECTION 5 — FLAGSHIP PROJECTS (preserved + enhanced cards)
      ═══════════════════════════════════════════════════════════════════ -->
 
-## 🚀 Flagship Engineering Projects Portfolio
+<div align="center">
+  <img src="assets/headers/header_flagship_projects.svg" width="100%" alt="Section 05: Flagship Engineering Projects Portfolio"/>
+</div>
+
+
+### 🛡️ Commercial Physical AI Safety — Micro-SaaS & Hosted Gateway
+
+<table width="100%">
+  <tr>
+    <td width="100%" valign="top">
+      <h3>
+        <a href="https://github.com/EngineerAbdullahBinZafar/safemotion-ai">
+          🛡️ SafeMotion AI — Deterministic Physical AI Safety Shield (FastAPI + MCP Gateway)
+        </a>
+        &nbsp;
+        <img src="https://img.shields.io/badge/18%2F18%20Tests-PASSED-10b981?style=flat-square"/>
+        <img src="https://img.shields.io/badge/v1.0.0-Production-f59e0b?style=flat-square"/>
+        <img src="https://img.shields.io/badge/%3C35%CE%BCs-Latency-00d4ff?style=flat-square"/>
+        <img src="https://img.shields.io/badge/MCP-Protocol%20Native-7b61ff?style=flat-square"/>
+      </h3>
+      <p><b>Commercial-grade, sub-millisecond mathematical safety shield for Embodied AI agents and autonomous mobile robots (AMRs).</b><br/>
+      Intercepts unconstrained neural velocity commands from LLMs (Claude, GPT-4, Gemini) and projects them in real time onto forward-invariant safe sets via closed-form Control Barrier Functions (CBF-QP) at &gt;20,000 Hz. Guarantees zero hardware collisions under external model hallucination.</p>
+      <table>
+        <tr>
+          <td align="center" width="25%">
+            <img src="https://img.shields.io/badge/REST%20API-FastAPI%20%2Fv1-00d4ff?style=for-the-badge" /><br/>
+            <sub>Sub-50µs high-throughput endpoint</sub>
+          </td>
+          <td align="center" width="25%">
+            <img src="https://img.shields.io/badge/MCP%20Server-Claude%20%2F%20AGY-7b61ff?style=for-the-badge" /><br/>
+            <sub>Stdio &amp; SSE agent tool bridge</sub>
+          </td>
+          <td align="center" width="25%">
+            <img src="https://img.shields.io/badge/Nagumo%20Theorem-Forward%20Invariant-10b981?style=for-the-badge" /><br/>
+            <sub>h(x) &ge; 0 mathematical safety certificate</sub>
+          </td>
+          <td align="center" width="25%">
+            <img src="https://img.shields.io/badge/Global%20Cashflow-UBL%20Pakistan-f59e0b?style=for-the-badge" /><br/>
+            <sub>LemonSqueezy MoR &rarr; UBL Direct Payout</sub>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+---
+
 
 ### 🏎️ Advanced Automotive Control & Invariant Suspensions
 
@@ -421,7 +472,9 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
      SECTION 7 — HEXAPOD FYP SHOWCASE (preserved)
      ═══════════════════════════════════════════════════════════════════ -->
 
-## 🕷️ Final Year Project — SPIDEY: 18-DOF Hexapod Robot
+<div align="center">
+  <img src="assets/headers/header_hexapod_fyp.svg" width="100%" alt="Section 06: Final Year Project - SPIDEY 18-DOF Hexapod Robot"/>
+</div>
 
 <div align="center">
 
@@ -488,7 +541,9 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
      SECTION 8 — INTERLOOP INDUSTRIAL INTERNSHIP (preserved)
      ═══════════════════════════════════════════════════════════════════ -->
 
-## 🏭 Industrial Engineering — Interloop Limited
+<div align="center">
+  <img src="assets/headers/header_industrial_plant.svg" width="100%" alt="Section 07: Industrial Engineering - Interloop Limited"/>
+</div>
 
 **Executive Intern Engineer** | Plant 2 HD2, Khurrianwala | August 26 – September 26, 2026
 
@@ -532,7 +587,9 @@ Interloop Limited is Pakistan's largest hosiery and textile exporter — a **For
      SECTION 9 — ACADEMIC RECORD (preserved)
      ═══════════════════════════════════════════════════════════════════ -->
 
-## 🎓 Academic Record — UET Lahore (Mechatronics & Control Engineering)
+<div align="center">
+  <img src="assets/headers/header_academic_record.svg" width="100%" alt="Section 08: Academic Record - UET Lahore"/>
+</div>
 
 <details>
 <summary><b>📋 Expand: Full 6-Semester Course Record with Hardware Outcomes</b></summary>
@@ -561,7 +618,9 @@ Interloop Limited is Pakistan's largest hosiery and textile exporter — a **For
      SECTION 10 — CERTIFICATIONS (preserved)
      ═══════════════════════════════════════════════════════════════════ -->
 
-## 🏅 Certifications & Engineering Accreditations
+<div align="center">
+  <img src="assets/headers/header_certifications.svg" width="100%" alt="Section 09: Professional Certifications and Accreditations"/>
+</div>
 
 | Domain | Certification / Accreditation | Issuing Organization |
 | :--- | :--- | :--- |
@@ -578,7 +637,7 @@ Interloop Limited is Pakistan's largest hosiery and textile exporter — a **For
 
 <div align="center">
 
-## 📈 GitHub Telemetry & Open-Source Contributions
+<img src="assets/headers/header_github_telemetry.svg" width="100%" alt="Section 10: GitHub Telemetry and Open-Source Contributions"/>
 
 <br/>
 
