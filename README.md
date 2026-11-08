@@ -49,6 +49,7 @@ Professional Profiles:
 <a href="https://linkedin.com/in/abdullah-bin-zafar"><img src="https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Abdullah Bin Zafar on LinkedIn"/></a>
 <a href="mailto:abz.king.1.9.2003@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Abdullah Bin Zafar at abz.king.1.9.2003@gmail.com"/></a>
 <a href="https://thequietwealthjournal.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Visit-0f172a?style=for-the-badge&logo=vercel&logoColor=white" alt="Visit Abdullah Bin Zafar Engineering Portfolio at The Quiet Wealth Journal"/></a>
+<a href="https://polar.sh/abdullah-bin-zafar"><img src="https://img.shields.io/badge/Polar.sh-Sponsor%20%26%20Products-0062FF?style=for-the-badge&logo=polar&logoColor=white" alt="Support and get software on Polar.sh/abdullah-bin-zafar"/></a>
 
 <br/><br/>
 
