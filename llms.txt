@@ -37,6 +37,14 @@
 
 ## Flagship Open-Source Repositories
 
+### safemotion-ai
+- URL: https://github.com/EngineerAbdullahBinZafar/safemotion-ai
+- Description: Production-grade sub-millisecond Physical AI Safety Gateway and Model Context
+  Protocol (MCP) Server. Evaluates closed-form Control Barrier Functions (CBF-QP) at >20,000 Hz,
+  intercepting unconstrained LLM/VLA commands to guarantee forward-invariant collision avoidance.
+- Tests: 18/18 passing
+- Tags: physical-ai, control-barrier-functions, ai-safety, mcp, fastapi, robotics, cbf-qp, embodied-ai
+
 ### principia-robotica
 - URL: https://github.com/EngineerAbdullahBinZafar/principia-robotica
 - Description: Real-time CBF-QP safety filter for 2D unicycle robots (mobile base, differential drive).
