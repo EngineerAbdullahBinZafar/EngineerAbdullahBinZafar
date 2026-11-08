@@ -28,10 +28,6 @@ Professional Profiles:
 
 <div align="center">
 
-<p align="center">
-  <img src="assets/banner.png" alt="Engineer Abdullah Bin Zafar — Physical AI Safety, Control Barrier Functions and Autonomous Systems Architecture" width="100%" />
-</p>
-
 <!-- ═══════════════════════════════════════════════════════════════════
      TIER 0 — CINEMATIC ANIMATED HEADER
      ═══════════════════════════════════════════════════════════════════ -->
@@ -72,10 +68,6 @@ Professional Profiles:
 
 <img src="assets/headers/header_executive_profile.svg" width="100%" alt="Section 01: Executive Engineering Profile"/>
 
-</div>
-
-<div align="center">
-  <img src="assets/profile_avatar_hd.png" alt="Engineer Abdullah Bin Zafar — Robotics, Control Systems and Physical AI Safety Engineer at UET Lahore" width="160" height="160" style="border-radius: 50%; max-width: 100%; box-shadow: 0 4px 20px rgba(0, 212, 255, 0.25);" />
 </div>
 
 **Mechatronics & Control Systems Engineer** — B.Sc. Mechatronics & Control Engineering, **University of Engineering & Technology (UET) Lahore**, Top Merit Scholar (**20 A/A+ grades across 6 semesters**). Operating at the convergence of rigorous classical control theory, deterministic bare-metal firmware, and physical hardware realization.
@@ -678,23 +670,6 @@ Interloop Limited is Pakistan's largest hosiery and textile exporter — a **For
 </a>
 
 <br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=EngineerAbdullahBinZafar&theme=tokyonight-duo&hide_border=true&background=0d1117&stroke=00d4ff&ring=7b61ff&fire=f59e0b&currStreakLabel=00d4ff&sideLabels=94a3b8&dates=475569" alt="GitHub Contribution Streak Statistics for Engineer Abdullah Bin Zafar"/>
-
-<br/><br/>
-
-<a href="https://github.com/EngineerAbdullahBinZafar">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=EngineerAbdullahBinZafar&bg_color=0d1117&color=00d4ff&line=7b61ff&point=f59e0b&area=true&hide_border=true&area_color=7b61ff" alt="Full Year GitHub Activity and Contribution Graph for Engineer Abdullah Bin Zafar"/>
-</a>
-
-<br/><br/>
-
-<!-- SNAKE CONTRIBUTION ANIMATION -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EngineerAbdullahBinZafar/EngineerAbdullahBinZafar/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/EngineerAbdullahBinZafar/EngineerAbdullahBinZafar/output/github-snake.svg"/>
-  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/EngineerAbdullahBinZafar/EngineerAbdullahBinZafar/output/github-snake-dark.svg" width="100%"/>
-</picture>
 
 </div>
 
