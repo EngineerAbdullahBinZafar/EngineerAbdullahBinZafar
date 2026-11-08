@@ -1,14 +1,42 @@
-<!-- SEO META: Abdullah Bin Zafar | Robotics Engineer | ROS 2 | Control Barrier Functions | Physical AI | UET Lahore -->
-<!-- Professional Engineering Portfolio | Robotics, Embedded Systems & Control Safety -->
-<!-- GEO: GitHub Search Optimized for "ros2 robotics engineer pakistan", "control barrier functions github", "physical ai safety mcp" -->
+<!--
+=============================================================================
+ENTITY METADATA & KNOWLEDGE GRAPH DECLARATION (AEO / GEO / SEMANTIC SEARCH)
+=============================================================================
+Entity: Engineer Abdullah Bin Zafar (Abdullah Bin Zafar)
+Title: Robotics, Control Systems & Physical AI Safety Engineer
+Affiliation: University of Engineering and Technology (UET) Lahore, Pakistan
+Degree: B.Sc. Mechatronics and Control Engineering (Top Merit Scholar, 20 A/A+ Grades)
+Primary Domains:
+  - Control Barrier Functions (CBF-QP, HOCBF, Forward Invariance)
+  - Model Context Protocol (MCP) Robotics Gateways & Sandboxed AI Execution
+  - Autonomous Vehicles & Real-Time Embedded Systems (STM32, AUTOSAR E2E Profile 1)
+  - Model Predictive Control (MPC) & Extended Kalman Filter (EKF) State Estimation
+Primary Repositories:
+  - https://github.com/EngineerAbdullahBinZafar/safemotion-ai
+  - https://github.com/EngineerAbdullahBinZafar/ros2-mcp-server
+  - https://github.com/EngineerAbdullahBinZafar/principia-robotica
+  - https://github.com/EngineerAbdullahBinZafar/automotive-chassis-cbf
+  - https://github.com/EngineerAbdullahBinZafar/antigravity-robotics-plugin
+  - https://github.com/EngineerAbdullahBinZafar/ros2-hardware-bridge
+Canonical Portfolio: https://thequietwealthjournal.vercel.app
+Professional Profiles:
+  - LinkedIn: https://linkedin.com/in/abdullah-bin-zafar
+  - GitHub: https://github.com/EngineerAbdullahBinZafar
+  - Email: abz.king.1.9.2003@gmail.com
+=============================================================================
+-->
 
 <div align="center">
+
+<p align="center">
+  <img src="assets/banner.png" alt="Engineer Abdullah Bin Zafar — Physical AI Safety, Control Barrier Functions and Autonomous Systems Architecture" width="100%" />
+</p>
 
 <!-- ═══════════════════════════════════════════════════════════════════
      TIER 0 — CINEMATIC ANIMATED HEADER
      ═══════════════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=ABDULLAH%20BIN%20ZAFAR&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Physical%20AI%20Architect%20%E2%80%A2%20Robotics%20Safety%20Engineer%20%E2%80%A2%20UET%20Lahore&descAlignY=60&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=ABDULLAH%20BIN%20ZAFAR&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Physical%20AI%20Architect%20%E2%80%A2%20Robotics%20Safety%20Engineer%20%E2%80%A2%20UET%20Lahore&descAlignY=60&descSize=18" alt="Engineer Abdullah Bin Zafar — Physical AI Architect & Robotics Safety Engineer Header Banner" width="100%"/>
 
 <!-- ANIMATED TYPING HEADLINE -->
 <a href="https://github.com/EngineerAbdullahBinZafar">
@@ -18,18 +46,18 @@
 <br/>
 
 <!-- VERIFIED PROFILE LINKS -->
-<a href="https://linkedin.com/in/abdullah-bin-zafar"><img src="https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:abz.king.1.9.2003@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-ea4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://thequietwealthjournal.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Visit-0f172a?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+<a href="https://linkedin.com/in/abdullah-bin-zafar"><img src="https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Abdullah Bin Zafar on LinkedIn"/></a>
+<a href="mailto:abz.king.1.9.2003@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Abdullah Bin Zafar at abz.king.1.9.2003@gmail.com"/></a>
+<a href="https://thequietwealthjournal.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Visit-0f172a?style=for-the-badge&logo=vercel&logoColor=white" alt="Visit Abdullah Bin Zafar Engineering Portfolio at The Quiet Wealth Journal"/></a>
 
 <br/><br/>
 
 <!-- PROFILE VIEW COUNTER -->
 <img src="https://komarev.com/ghpvc/?username=EngineerAbdullahBinZafar&label=Profile+Views&color=00d4ff&style=for-the-badge" alt="Profile Views"/>
 &nbsp;
-<img src="https://img.shields.io/badge/Open%20To%20Work-Global%20Robotics%20Roles-10b981?style=for-the-badge&logo=briefcase&logoColor=white"/>
+<img src="https://img.shields.io/badge/Open%20To%20Work-Global%20Robotics%20Roles-10b981?style=for-the-badge&logo=briefcase&logoColor=white" alt="Abdullah Bin Zafar is Open to Global Robotics and Autonomous Systems Roles"/>
 &nbsp;
-<img src="https://img.shields.io/badge/Location-Lahore%2C%20Pakistan-f59e0b?style=for-the-badge&logo=googlemaps&logoColor=white"/>
+<img src="https://img.shields.io/badge/Location-Lahore%2C%20Pakistan-f59e0b?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location: Lahore, Pakistan — University of Engineering and Technology"/>
 
 </div>
 
@@ -45,27 +73,31 @@
 
 </div>
 
+<div align="center">
+  <img src="assets/profile_avatar_hd.png" alt="Engineer Abdullah Bin Zafar — Robotics, Control Systems and Physical AI Safety Engineer at UET Lahore" width="160" height="160" style="border-radius: 50%; max-width: 100%; box-shadow: 0 4px 20px rgba(0, 212, 255, 0.25);" />
+</div>
+
 **Mechatronics & Control Systems Engineer** — B.Sc. Mechatronics & Control Engineering, **University of Engineering & Technology (UET) Lahore**, Top Merit Scholar (**20 A/A+ grades across 6 semesters**). Operating at the convergence of rigorous classical control theory, deterministic bare-metal firmware, and physical hardware realization.
 
 <table>
   <tr>
     <td width="33%" align="center" valign="top">
       <br/>
-      <img src="https://img.shields.io/badge/Academic%20Merit-Top%20Scholar%20(20%20A%2FA%2B)-00d4ff?style=flat-square&logo=academia&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Academic%20Merit-Top%20Scholar%20(20%20A%2FA%2B)-00d4ff?style=flat-square&logo=academia&logoColor=white" alt="Academic Merit: Top Merit Scholar at UET Lahore with 20 A and A+ Grades"/>
       <br/><br/>
       <b>Academic Excellence & Theory</b><br/>
       <sub>Top Merit Scholar at UET Lahore across 6 consecutive semesters. Deep mastery of state-space modern control, Lyapunov stability, non-linear optimization, Kalman state estimation, and multibody kinematics.</sub>
     </td>
     <td width="33%" align="center" valign="top">
       <br/>
-      <img src="https://img.shields.io/badge/Hardware%20Build%20Rate-100%25%20Verified-10b981?style=flat-square&logo=microchip&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Hardware%20Build%20Rate-100%25%20Verified-10b981?style=flat-square&logo=microchip&logoColor=white" alt="100% Verified Hardware Build Rate across All Laboratory Modules"/>
       <br/><br/>
       <b>100% Hardware Build Rate</b><br/>
       <sub>Conceived, CNC-machined, PCB-routed, and hardware-validated every single engineering laboratory module — 6 semesters of operable physical prototypes with empirical metrics: ±1 mm arm repeatability · &lt;50 mV power ripple · &lt;2° drone attitude margin · ±0.05 mm GD&T.</sub>
     </td>
     <td width="33%" align="center" valign="top">
       <br/>
-      <img src="https://img.shields.io/badge/Industrial%20Leadership-Interloop%20Limited-f59e0b?style=flat-square&logo=industry&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Industrial%20Leadership-Interloop%20Limited-f59e0b?style=flat-square&logo=industry&logoColor=white" alt="Industrial Leadership: Executive Intern Engineer at Interloop Limited Plant 2 HD2"/>
       <br/><br/>
       <b>Industrial Plant Engineering</b><br/>
       <sub>Executive Intern Engineer at Plant 2 HD2, Khurrianwala. Audited 3-stage pneumatic valve sequencing, closed-loop HVAC telemetry (±2% RH setpoints), and sensor conditioning on Wärtsilä V16 7.8 MW cogeneration plant and 1,818 Lonati robots.</sub>
@@ -87,31 +119,31 @@
 
 **Languages & Runtimes**
 
-<img src="https://skillicons.dev/icons?i=python,cpp,c,matlab,bash&theme=dark&perline=5" height="50"/>
+<img src="https://skillicons.dev/icons?i=python,cpp,c,matlab,bash&theme=dark&perline=5" alt="Core Programming Languages: Python, C++, C, MATLAB, and Bash" height="50"/>
 
 <br/><br/>
 
 **Robotics, Embedded & Control**
 
-<img src="https://skillicons.dev/icons?i=ros,arduino&theme=dark&perline=5" height="50"/>
+<img src="https://skillicons.dev/icons?i=ros,arduino&theme=dark&perline=5" alt="Robotics and Embedded Frameworks: ROS and Arduino" height="50"/>
 &nbsp;&nbsp;
-<img src="https://img.shields.io/badge/ROS%202-Humble%2FIron-22314E?style=for-the-badge&logo=ros&logoColor=white"/>
-<img src="https://img.shields.io/badge/STM32%20HAL%2FLL-Bare%20Metal-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/>
-<img src="https://img.shields.io/badge/AUTOSAR-E2E%20Profile%201-005B9A?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/CBF--QP-Safety%20Filter-7b61ff?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/MCP%20Protocol-AI%20Gateway-00d4ff?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/ROS%202-Humble%2FIron-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS 2 Humble and Iron Robotics Middleware Framework"/>
+<img src="https://img.shields.io/badge/STM32%20HAL%2FLL-Bare%20Metal-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32 HAL and LL Bare Metal Embedded Firmware Development"/>
+<img src="https://img.shields.io/badge/AUTOSAR-E2E%20Profile%201-005B9A?style=for-the-badge&logoColor=white" alt="AUTOSAR E2E Profile 1 CRC-8 Communications Protocol"/>
+<img src="https://img.shields.io/badge/CBF--QP-Safety%20Filter-7b61ff?style=for-the-badge&logoColor=white" alt="Control Barrier Functions CBF-QP Real-Time Safety Filter"/>
+<img src="https://img.shields.io/badge/MCP%20Protocol-AI%20Gateway-00d4ff?style=for-the-badge&logoColor=white" alt="Model Context Protocol MCP AI Robotics Gateway"/>
 
 <br/><br/>
 
 **Engineering & Simulation Tools**
 
-<img src="https://skillicons.dev/icons?i=solidworks,matlab,git,github,vscode,linux&theme=dark&perline=6" height="50"/>
+<img src="https://skillicons.dev/icons?i=solidworks,matlab,git,github,vscode,linux&theme=dark&perline=6" alt="Engineering and CAD Tools: SolidWorks, MATLAB, Git, GitHub, VS Code, Linux" height="50"/>
 
 <br/><br/>
 
 **Cloud, AI & Dev Tools**
 
-<img src="https://skillicons.dev/icons?i=docker,pytest,cmake&theme=dark&perline=6" height="50"/>
+<img src="https://skillicons.dev/icons?i=docker,pytest,cmake&theme=dark&perline=6" alt="DevOps and Build Tools: Docker, Pytest, CMake" height="50"/>
 
 </div>
 
@@ -265,29 +297,29 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
           🛡️ SafeMotion AI — Deterministic Physical AI Safety Shield (FastAPI + MCP Gateway)
         </a>
         &nbsp;
-        <img src="https://img.shields.io/badge/18%2F18%20Tests-PASSED-10b981?style=flat-square"/>
-        <img src="https://img.shields.io/badge/v1.0.0-Production-f59e0b?style=flat-square"/>
-        <img src="https://img.shields.io/badge/%3C35%CE%BCs-Latency-00d4ff?style=flat-square"/>
-        <img src="https://img.shields.io/badge/MCP-Protocol%20Native-7b61ff?style=flat-square"/>
+        <img src="https://img.shields.io/badge/18%2F18%20Tests-PASSED-10b981?style=flat-square" alt="SafeMotion AI: 18 of 18 Automated Unit Tests Passed"/>
+        <img src="https://img.shields.io/badge/v1.0.0-Production-f59e0b?style=flat-square" alt="SafeMotion AI: v1.0.0 Production Release"/>
+        <img src="https://img.shields.io/badge/%3C35%CE%BCs-Latency-00d4ff?style=flat-square" alt="SafeMotion AI: Sub-35 Microsecond Execution Latency"/>
+        <img src="https://img.shields.io/badge/MCP-Protocol%20Native-7b61ff?style=flat-square" alt="SafeMotion AI: Native Model Context Protocol Support"/>
       </h3>
       <p><b>Commercial-grade, sub-millisecond mathematical safety shield for Embodied AI agents and autonomous mobile robots (AMRs).</b><br/>
       Intercepts unconstrained neural velocity commands from LLMs (Claude, GPT-4, Gemini) and projects them in real time onto forward-invariant safe sets via closed-form Control Barrier Functions (CBF-QP) at &gt;20,000 Hz. Enforces forward-invariance under ideal unicycle model assumptions to prevent barrier boundary violations.</p>
       <table>
         <tr>
           <td align="center" width="25%">
-            <img src="https://img.shields.io/badge/REST%20API-FastAPI%20%2Fv1-00d4ff?style=for-the-badge" /><br/>
+            <img src="https://img.shields.io/badge/REST%20API-FastAPI%20%2Fv1-00d4ff?style=for-the-badge" alt="SafeMotion AI: Sub-50us FastAPI v1 REST API Endpoint"/><br/>
             <sub>Sub-50µs high-throughput endpoint</sub>
           </td>
           <td align="center" width="25%">
-            <img src="https://img.shields.io/badge/MCP%20Server-Claude%20%2F%20AGY-7b61ff?style=for-the-badge" /><br/>
+            <img src="https://img.shields.io/badge/MCP%20Server-Claude%20%2F%20AGY-7b61ff?style=for-the-badge" alt="SafeMotion AI: Claude and Antigravity Stdio and SSE Agent Tool Bridge"/><br/>
             <sub>Stdio &amp; SSE agent tool bridge</sub>
           </td>
           <td align="center" width="25%">
-            <img src="https://img.shields.io/badge/Nagumo%20Theorem-Forward%20Invariant-10b981?style=for-the-badge" /><br/>
+            <img src="https://img.shields.io/badge/Nagumo%20Theorem-Forward%20Invariant-10b981?style=for-the-badge" alt="SafeMotion AI: Nagumo Theorem Certified Forward Invariance h(x) &ge; 0"/><br/>
             <sub>h(x) &ge; 0 mathematical safety certificate</sub>
           </td>
           <td align="center" width="25%">
-            <img src="https://img.shields.io/badge/Deployment-Docker%20%7C%20FastAPI-f59e0b?style=for-the-badge" /><br/>
+            <img src="https://img.shields.io/badge/Deployment-Docker%20%7C%20FastAPI-f59e0b?style=for-the-badge" alt="SafeMotion AI: Containerized Docker and FastAPI Deployment"/><br/>
             <sub>Sub-50µs REST / Stdio / SSE</sub>
           </td>
         </tr>
@@ -309,28 +341,28 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
           ⚡ Automotive Chassis CBF — HOCBF (r=2) + Real-Time MPC + AUTOSAR E2E CAN
         </a>
         &nbsp;
-        <img src="https://img.shields.io/badge/88%2F88%20Tests-PASSED-00d4ff?style=flat-square"/>
-        <img src="https://img.shields.io/badge/v1.0.0-Release-f59e0b?style=flat-square"/>
-        <img src="https://img.shields.io/badge/ISO%208608%20Class%20A-Validated-7b61ff?style=flat-square"/>
+        <img src="https://img.shields.io/badge/88%2F88%20Tests-PASSED-00d4ff?style=flat-square" alt="Automotive Chassis CBF: 88 of 88 Comprehensive Tests Passed"/>
+        <img src="https://img.shields.io/badge/v1.0.0-Release-f59e0b?style=flat-square" alt="Automotive Chassis CBF: v1.0.0 Research Release"/>
+        <img src="https://img.shields.io/badge/ISO%208608%20Class%20A-Validated-7b61ff?style=flat-square" alt="Automotive Chassis CBF: Validated against ISO 8608 Class A Road Profile"/>
       </h3>
       <p><b>Active chassis research framework implementing quarter-car active suspension with HOCBF and discrete-time MPC, evaluated against ISO 8608 Class A road profiles in simulation.</b><br/>
       Integrates a 100 Hz condensed linear MPC planner with DARE infinite-horizon terminal cost, a relative-degree $r=2$ High-Order Control Barrier Function (HOCBF) closed-form safety shield, physical actuator strut saturation/thermal dynamics, and an AUTOSAR E2E Profile 1 CAN telemetry gateway (<code>chassis_dynamics.dbc</code>).</p>
       <table>
         <tr>
           <td align="center" width="25%">
-            <img src="https://img.shields.io/badge/+35.65%25%20RMS-Ride%20Comfort-00d4ff?style=for-the-badge" /><br/>
+            <img src="https://img.shields.io/badge/+35.65%25%20RMS-Ride%20Comfort-00d4ff?style=for-the-badge" alt="Automotive Chassis CBF: Plus 35.65 Percent RMS Ride Comfort Improvement"/><br/>
             <sub>Over passive baseline on ISO 8608 Class A roads</sub>
           </td>
           <td align="center" width="25%">
-            <img src="https://img.shields.io/badge/269.7%20%C2%B5s-Loop%20Latency-7b61ff?style=for-the-badge" /><br/>
+            <img src="https://img.shields.io/badge/269.7%20%C2%B5s-Loop%20Latency-7b61ff?style=for-the-badge" alt="Automotive Chassis CBF: 269.7 Microsecond Median Loop Latency"/><br/>
             <sub>Median · &lt;3% CPU load at 100 Hz</sub>
           </td>
           <td align="center" width="25%">
-            <img src="https://img.shields.io/badge/%C2%B150mm%20Stroke-Invariant%20Always-10b981?style=for-the-badge" /><br/>
+            <img src="https://img.shields.io/badge/%C2%B150mm%20Stroke-Invariant%20Always-10b981?style=for-the-badge" alt="Automotive Chassis CBF: Plus-Minus 50mm Suspension Stroke Forward Invariant"/><br/>
             <sub>HOCBF hard constraint · never violated</sub>
           </td>
           <td align="center" width="25%">
-            <img src="https://img.shields.io/badge/88%2F88%20Tests-100%25%20Pass-f59e0b?style=for-the-badge" /><br/>
+            <img src="https://img.shields.io/badge/88%2F88%20Tests-100%25%20Pass-f59e0b?style=for-the-badge" alt="Automotive Chassis CBF: 100 Percent Pass Rate across 88 Unit Tests"/><br/>
             <sub>Full suite · zero regressions</sub>
           </td>
         </tr>
@@ -351,14 +383,14 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
           🛡️ principia-robotica
         </a>
         &nbsp;
-        <img src="https://img.shields.io/badge/68%2F68%20Tests-PASSED-10b981?style=flat-square"/>
+        <img src="https://img.shields.io/badge/68%2F68%20Tests-PASSED-10b981?style=flat-square" alt="Principia Robotica: 68 of 68 Safety Filter Tests Passed"/>
       </h3>
       <p>Real-time CBF-QP safety filter for 2D unicycle robots. Projects any unsafe AI velocity command $(v, \omega)$ onto the safe set using closed-form minimum-norm gradient correction. Runs at &gt;12,000 Hz with &lt;50 µs loop latency.</p>
       <p><code>python demo.py</code> → ASCII map showing unfiltered crash vs. CBF-deflected safe trajectory</p>
       <p>
-        <img src="https://img.shields.io/badge/CBF--QP-Safety%20Filter-7b61ff?style=flat-square"/>
-        <img src="https://img.shields.io/badge/%3E20%2C000%20Hz-Throughput-00d4ff?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Ames%20et%20al.-Cited-f59e0b?style=flat-square"/>
+        <img src="https://img.shields.io/badge/CBF--QP-Safety%20Filter-7b61ff?style=flat-square" alt="Principia Robotica: Real-Time Unicycle CBF-QP Safety Filter"/>
+        <img src="https://img.shields.io/badge/%3E20%2C000%20Hz-Throughput-00d4ff?style=flat-square" alt="Principia Robotica: Greater than 20,000 Hz Optimization Throughput"/>
+        <img src="https://img.shields.io/badge/Ames%20et%20al.-Cited-f59e0b?style=flat-square" alt="Principia Robotica: Formal Control Barrier Theory based on Ames et al"/>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -367,13 +399,13 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
           🌌 antigravity-robotics-plugin
         </a>
         &nbsp;
-        <img src="https://img.shields.io/badge/152%2F152%20Tests-PASSED-10b981?style=flat-square"/>
+        <img src="https://img.shields.io/badge/152%2F152%20Tests-PASSED-10b981?style=flat-square" alt="Antigravity Robotics Plugin: 152 of 152 Tests Passed"/>
       </h3>
       <p>MCP server plugin for Antigravity IDE — bridges AI agents to physical robot hardware through a 3-tier command sandbox. Enforces 3-tier command sandboxing and real-time telemetry for AI-driven robotics. 2D LiDAR HTML5 radar, PID auto-tuner, 30 Hz telemetry.</p>
       <p>
-        <img src="https://img.shields.io/badge/MCP%20Protocol-AI%20Gateway-00d4ff?style=flat-square"/>
-        <img src="https://img.shields.io/badge/3--Tier%20Sandbox-Safe%20Write-10b981?style=flat-square"/>
-        <img src="https://img.shields.io/badge/30%20Hz-Telemetry-7b61ff?style=flat-square"/>
+        <img src="https://img.shields.io/badge/MCP%20Protocol-AI%20Gateway-00d4ff?style=flat-square" alt="Antigravity Robotics Plugin: Model Context Protocol AI Gateway"/>
+        <img src="https://img.shields.io/badge/3--Tier%20Sandbox-Safe%20Write-10b981?style=flat-square" alt="Antigravity Robotics Plugin: 3-Tier Command Sandbox with Safe-Write Enforcement"/>
+        <img src="https://img.shields.io/badge/30%20Hz-Telemetry-7b61ff?style=flat-square" alt="Antigravity Robotics Plugin: Real-Time 30 Hz Sensor and LiDAR Telemetry"/>
       </p>
     </td>
   </tr>
@@ -384,12 +416,12 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
           📡 ros2-mcp-server
         </a>
         &nbsp;
-        <img src="https://img.shields.io/badge/42%2F42%20Tests-PASSED-10b981?style=flat-square"/>
+        <img src="https://img.shields.io/badge/42%2F42%20Tests-PASSED-10b981?style=flat-square" alt="ROS 2 MCP Server: 42 of 42 Tests Passed"/>
       </h3>
       <p>Standalone JSON-RPC 2.0 (stdio) MCP server exposing ROS 2 topics, nodes, diagnostics, PID tuning, and spatial mapping to any MCP-compatible AI agent. Enforces 3-tier security sandbox before commands reach actuators.</p>
       <p>
-        <img src="https://img.shields.io/badge/JSON--RPC%202.0-stdio-f59e0b?style=flat-square"/>
-        <img src="https://img.shields.io/badge/ROS%202-Humble%2FIron-22314E?style=flat-square"/>
+        <img src="https://img.shields.io/badge/JSON--RPC%202.0-stdio-f59e0b?style=flat-square" alt="ROS 2 MCP Server: JSON-RPC 2.0 stdio Transport Protocol"/>
+        <img src="https://img.shields.io/badge/ROS%202-Humble%2FIron-22314E?style=flat-square" alt="ROS 2 MCP Server: Compatible with ROS 2 Humble Hawksbill and Iron Irwini"/>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -398,13 +430,13 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
           🔗 ros2-hardware-bridge
         </a>
         &nbsp;
-        <img src="https://img.shields.io/badge/11%2F11%20Tests-PASSED-10b981?style=flat-square"/>
+        <img src="https://img.shields.io/badge/11%2F11%20Tests-PASSED-10b981?style=flat-square" alt="ROS 2 Hardware Bridge: 11 of 11 Real-Time Serial Tests Passed"/>
       </h3>
       <p>Deterministic STM32 HAL/LL firmware bridge with AUTOSAR E2E Profile 1 CRC-8 framing, COBS byte-stuffing, ring-buffer DMA, and auto-resync after garbage injection. &lt;35 µs processing latency at 921.6 kbaud.</p>
       <p>
-        <img src="https://img.shields.io/badge/STM32-HAL%2FLL-03234B?style=flat-square"/>
-        <img src="https://img.shields.io/badge/AUTOSAR%20E2E-Profile%201-005B9A?style=flat-square"/>
-        <img src="https://img.shields.io/badge/%3C35%20%C2%B5s-Latency-00d4ff?style=flat-square"/>
+        <img src="https://img.shields.io/badge/STM32-HAL%2FLL-03234B?style=flat-square" alt="ROS 2 Hardware Bridge: STM32 Hardware Abstraction Layer and Low-Layer Firmware"/>
+        <img src="https://img.shields.io/badge/AUTOSAR%20E2E-Profile%201-005B9A?style=flat-square" alt="ROS 2 Hardware Bridge: AUTOSAR E2E Profile 1 SAE J1850 CRC-8 Framing"/>
+        <img src="https://img.shields.io/badge/%3C35%20%C2%B5s-Latency-00d4ff?style=flat-square" alt="ROS 2 Hardware Bridge: Sub-35 Microsecond Interrupt and Processing Latency"/>
       </p>
     </td>
   </tr>
@@ -422,7 +454,7 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
           💥 ros-fault-injector
         </a>
         &nbsp;
-        <img src="https://img.shields.io/badge/3%2F3%20Tests-PASSED-10b981?style=flat-square"/>
+        <img src="https://img.shields.io/badge/3%2F3%20Tests-PASSED-10b981?style=flat-square" alt="ROS Fault Injector: 3 of 3 Chaos Engineering Tests Passed"/>
       </h3>
       <p>Stochastic chaos engineering for ROS 2 — IMU Gaussian noise, LiDAR beam dropout, WiFi latency/drop. Zero-dependency <code>demo.py</code> with ASCII sparklines.</p>
     </td>
@@ -432,7 +464,7 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
           📚 failure-atlas
         </a>
         &nbsp;
-        <img src="https://img.shields.io/badge/5%2F5%20Tests-PASSED-10b981?style=flat-square"/>
+        <img src="https://img.shields.io/badge/5%2F5%20Tests-PASSED-10b981?style=flat-square" alt="Failure Atlas: 5 of 5 Safety Analysis Tests Passed"/>
       </h3>
       <p>Structured database of 12 real-world engineering failures (Ariane 5, Therac-25, Mars Climate Orbiter, Boeing 737 MAX MCAS) with FMEA RPN scoring.</p>
     </td>
@@ -442,7 +474,7 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
           🔀 stm32-hal-fuzzer
         </a>
         &nbsp;
-        <img src="https://img.shields.io/badge/3%2F3%20Tests-PASSED-10b981?style=flat-square"/>
+        <img src="https://img.shields.io/badge/3%2F3%20Tests-PASSED-10b981?style=flat-square" alt="STM32 HAL Fuzzer: 3 of 3 AFL Fuzzing Verification Tests Passed"/>
       </h3>
       <p>AFL-style property-based fuzzer for 28 STM32 HAL APIs — NULL pointers, zero-size, extreme values. Exports C harness for real AFL/libFuzzer integration.</p>
     </td>
@@ -459,7 +491,7 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
 
 ## 🏆 GitHub Achievement Trophies
 
-<img src="https://github-profile-trophy.vercel.app/?username=EngineerAbdullahBinZafar&theme=onestar&no-frame=true&no-bg=true&margin-w=6&margin-h=6&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B" width="100%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=EngineerAbdullahBinZafar&theme=onestar&no-frame=true&no-bg=true&margin-w=6&margin-h=6&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B" alt="GitHub Achievement Trophies for Engineer Abdullah Bin Zafar" width="100%"/>
 
 </div>
 
@@ -475,10 +507,10 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/FYP-SPIDEY%20Hexapod-7b61ff?style=for-the-badge&logo=microchip&logoColor=white"/>
-<img src="https://img.shields.io/badge/18%20DOF-Hexapod%20Locomotion-00d4ff?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/±1mm-Physical%20Repeatability-10b981?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/ESP32%20%2B%20STM32-Control%20Architecture-f59e0b?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/FYP-SPIDEY%20Hexapod-7b61ff?style=for-the-badge&logo=microchip&logoColor=white" alt="Final Year Project: SPIDEY 18-DOF Hexapod Robot by Abdullah Bin Zafar"/>
+<img src="https://img.shields.io/badge/18%20DOF-Hexapod%20Locomotion-00d4ff?style=for-the-badge" alt="18 Degrees of Freedom Hexapod Locomotion Kinematics"/>
+<img src="https://img.shields.io/badge/%C2%B11mm-Physical%20Repeatability-10b981?style=for-the-badge" alt="Plus-Minus 1mm Physical Robot Positional Repeatability"/>
+<img src="https://img.shields.io/badge/ESP32%20%2B%20STM32-Control%20Architecture-f59e0b?style=for-the-badge" alt="Dual MCU Architecture: ESP32 Gait Planner and STM32 Servo Driver"/>
 
 </div>
 
@@ -560,19 +592,19 @@ Interloop Limited is Pakistan's largest hosiery and textile exporter — a **For
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="assets/interloop_image1.png" width="200"/><br/><sub>Plant Overview</sub></td>
-    <td align="center" width="33%"><img src="assets/interloop_image18.png" width="200"/><br/><sub>Knitting Robot Hall</sub></td>
-    <td align="center" width="33%"><img src="assets/interloop_image19.png" width="200"/><br/><sub>Cogeneration Plant</sub></td>
+    <td align="center" width="33%"><img src="assets/interloop_image1.png" alt="Interloop Limited Plant 2 HD2 Overview and Industrial Manufacturing Facility in Khurrianwala" width="200"/><br/><sub>Plant Overview</sub></td>
+    <td align="center" width="33%"><img src="assets/interloop_image18.png" alt="Interloop Limited Knitting Robot Hall housing 1,818 Automated Lonati Circular Knitting Robots" width="200"/><br/><sub>Knitting Robot Hall</sub></td>
+    <td align="center" width="33%"><img src="assets/interloop_image19.png" alt="Wärtsilä V16 7.8 MW Heavy Fuel Cogeneration Power Plant Audited by Abdullah Bin Zafar" width="200"/><br/><sub>Cogeneration Plant</sub></td>
   </tr>
   <tr>
-    <td align="center" width="33%"><img src="assets/interloop_image24.png" width="200"/><br/><sub>Control Panel</sub></td>
-    <td align="center" width="33%"><img src="assets/interloop_image25.png" width="200"/><br/><sub>Pneumatic Valves</sub></td>
-    <td align="center" width="33%"><img src="assets/interloop_image32.png" width="200"/><br/><sub>HVAC Monitoring</sub></td>
+    <td align="center" width="33%"><img src="assets/interloop_image24.png" alt="Industrial Automation PLC Control Panel and Sensor Instrumentation at Interloop Limited" width="200"/><br/><sub>Control Panel</sub></td>
+    <td align="center" width="33%"><img src="assets/interloop_image25.png" alt="Three-Stage Electro-Pneumatic Valve Sequencing and Pressure-Drop Diagnostic Setup" width="200"/><br/><sub>Pneumatic Valves</sub></td>
+    <td align="center" width="33%"><img src="assets/interloop_image32.png" alt="Closed-Loop Industrial HVAC Telemetry System maintaining plus-minus 2% Relative Humidity" width="200"/><br/><sub>HVAC Monitoring</sub></td>
   </tr>
   <tr>
-    <td align="center" width="33%"><img src="assets/interloop_image33.png" width="200"/><br/><sub>Servo Drive Array</sub></td>
-    <td align="center" width="33%"><img src="assets/interloop_image62.png" width="200"/><br/><sub>PCB Inspection</sub></td>
-    <td align="center" width="33%"><img src="assets/interloop_image80.png" width="200"/><br/><sub>Plant 2 HD2</sub></td>
+    <td align="center" width="33%"><img src="assets/interloop_image33.png" alt="Multi-Axis Industrial Servo Drive Array and Power Inverter Infrastructure" width="200"/><br/><sub>Servo Drive Array</sub></td>
+    <td align="center" width="33%"><img src="assets/interloop_image62.png" alt="Industrial Controller PCB Diagnostic Inspection and Signal Integrity Testing" width="200"/><br/><sub>PCB Inspection</sub></td>
+    <td align="center" width="33%"><img src="assets/interloop_image80.png" alt="Interloop Limited Plant 2 HD2 Khurrianwala Manufacturing Operations Entrance" width="200"/><br/><sub>Plant 2 HD2</sub></td>
   </tr>
 </table>
 
@@ -639,19 +671,19 @@ Interloop Limited is Pakistan's largest hosiery and textile exporter — a **For
 <br/>
 
 <a href="https://github.com/EngineerAbdullahBinZafar">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=EngineerAbdullahBinZafar&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=7b61ff&text_color=94a3b8&ring_color=f59e0b"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=EngineerAbdullahBinZafar&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=7b61ff&text_color=94a3b8&ring_color=f59e0b" alt="GitHub Readme Overall Commit and Star Statistics for Engineer Abdullah Bin Zafar"/>
   &nbsp;&nbsp;
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EngineerAbdullahBinZafar&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=94a3b8"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EngineerAbdullahBinZafar&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=94a3b8" alt="Top Programming Languages Breakdown for Engineer Abdullah Bin Zafar on GitHub"/>
 </a>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=EngineerAbdullahBinZafar&theme=tokyonight-duo&hide_border=true&background=0d1117&stroke=00d4ff&ring=7b61ff&fire=f59e0b&currStreakLabel=00d4ff&sideLabels=94a3b8&dates=475569"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=EngineerAbdullahBinZafar&theme=tokyonight-duo&hide_border=true&background=0d1117&stroke=00d4ff&ring=7b61ff&fire=f59e0b&currStreakLabel=00d4ff&sideLabels=94a3b8&dates=475569" alt="GitHub Contribution Streak Statistics for Engineer Abdullah Bin Zafar"/>
 
 <br/><br/>
 
 <a href="https://github.com/EngineerAbdullahBinZafar">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=EngineerAbdullahBinZafar&bg_color=0d1117&color=00d4ff&line=7b61ff&point=f59e0b&area=true&hide_border=true&area_color=7b61ff"/>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=EngineerAbdullahBinZafar&bg_color=0d1117&color=00d4ff&line=7b61ff&point=f59e0b&area=true&hide_border=true&area_color=7b61ff" alt="Full Year GitHub Activity and Contribution Graph for Engineer Abdullah Bin Zafar"/>
 </a>
 
 <br/><br/>
@@ -711,16 +743,16 @@ Advanced Industrial Automation · Siemens · ABB · Bosch · KUKA
 <br/><br/>
 
 <!-- ANIMATED FOOTER WAVE -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=fadeIn" alt="Abdullah Bin Zafar Engineering Portfolio Footer Gradient Wave Banner" width="100%"/>
 
 <sub>
 <i>"Safety is not a feature or a soft prompt. It is a deterministic mathematical law."</i>
 <br/>
 <b>Abdullah Bin Zafar</b> · Mechatronics & Control Engineering · UET Lahore · Pakistan
 <br/>
-<img src="https://img.shields.io/badge/Made%20with-❤️%20in%20Pakistan-00d4ff?style=flat-square"/>
+<img src="https://img.shields.io/badge/Made%20with-❤️%20in%20Pakistan-00d4ff?style=flat-square" alt="Made with Love in Pakistan by Abdullah Bin Zafar"/>
 &nbsp;
-<img src="https://img.shields.io/badge/Powered%20by-Control%20Theory%20%26%20Physics-7b61ff?style=flat-square"/>
+<img src="https://img.shields.io/badge/Powered%20by-Control%20Theory%20%26%20Physics-7b61ff?style=flat-square" alt="Powered by Rigorous Control Theory, Classical Physics and Mathematical Formalism"/>
 </sub>
 
 </div>
