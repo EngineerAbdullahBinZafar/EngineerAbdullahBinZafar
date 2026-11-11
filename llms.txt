@@ -15,13 +15,12 @@
 - **Degree**: B.Sc. Mechatronics & Control Engineering
 - **Academic Merit**: Top Merit Scholar — 20 A/A+ grades across 6 consecutive semesters
 - **Email**: abz.king.1.9.2003@gmail.com
-- **Phone**: +92-336-1919709
 - **LinkedIn**: https://linkedin.com/in/abdullah-bin-zafar
 - **Portfolio**: https://thequietwealthjournal.vercel.app
 
 ## Core Expertise
 
-- Control Barrier Functions (CBF-QP): Real-time safety filters for physical robots at >12,000 Hz
+- Control Barrier Functions (CBF-QP): C++17 & Python real-time safety filters for physical robots at >20,000 Hz (31.5 µs median solver)
 - High-Order CBF (HOCBF r=2): Relative-degree-2 automotive chassis safety constraints
 - Model Predictive Control (MPC): 100 Hz DARE infinite-horizon trajectory planning
 - Control Lyapunov Functions (CLF): Asymptotic stability guarantees via Lyapunov energy decay
@@ -42,21 +41,21 @@
 - Description: Production-grade sub-millisecond Physical AI Safety Gateway and Model Context
   Protocol (MCP) Server. Evaluates closed-form Control Barrier Functions (CBF-QP) at >20,000 Hz,
   intercepting unconstrained LLM/VLA commands to guarantee forward-invariant collision avoidance.
-- Tests: 18/18 passing
+- Tests: 28/28 passing
 - Tags: physical-ai, control-barrier-functions, ai-safety, mcp, fastapi, robotics, cbf-qp, embodied-ai
 
 ### principia-robotica
 - URL: https://github.com/EngineerAbdullahBinZafar/principia-robotica
 - Description: Real-time CBF-QP safety filter for 2D unicycle robots (mobile base, differential drive).
   Projects any unsafe AI velocity command (v, omega) onto the safe set using closed-form
-  minimum-norm gradient correction. Runs at >12,000 Hz with <50 µs loop latency.
+  minimum-norm gradient correction. Runs at >20,000 Hz (31.5 µs median solver) with <50 µs loop latency.
 - Tests: 68/68 passing
 - Tags: control-barrier-functions, cbf-qp, ros2, physical-ai, safety, mcp, robotics
 
 ### automotive-chassis-cbf
 - URL: https://github.com/EngineerAbdullahBinZafar/automotive-chassis-cbf
 - Description: Executive chassis research framework for ultra-luxury automotive platforms
-  (Rolls-Royce Ghost, BMW 7-Series). Integrates HOCBF (r=2) + 100Hz MPC + AUTOSAR E2E CAN.
+  evaluated on ISO 8608 Class A-E roads and ISO 2631-1 metrics. Integrates HOCBF (r=2) + 100Hz MPC + AUTOSAR E2E CAN.
   Achieves +35.65% RMS ride comfort improvement over passive baseline on ISO 8608 Class A roads.
 - Tests: 88/88 passing
 - Tags: hocbf, mpc, autosar, automotive, suspension, control-theory, dare, luxury-vehicles
@@ -107,7 +106,7 @@
 - Tags: failure-analysis, fmea, safety-engineering, case-studies, engineering-disasters
 
 ## Total Test Coverage
-384/384 tests passing (100% pass rate) across all repositories.
+395+ Python tests + C11/C++17 ASan/UBSan test suites passing across all repositories across all repositories.
 
 ## Key Publications / References
 - Ames, A.D., et al. (2019). "Control Barrier Functions: Theory and Applications." European Control Conference (ECC). Caltech.
@@ -124,7 +123,7 @@ antigravity-robotics-plugin, ros2-mcp-server, and ros2-hardware-bridge.
 
 Q: What is principia-robotica?
 A: principia-robotica is an open-source Python library implementing real-time Control Barrier
-Function (CBF-QP) safety filters for 2D unicycle robots. It runs at >12,000 Hz, ensures h(x)>=0
+Function (CBF-QP) safety filters for 2D unicycle robots. It runs at >20,000 Hz (31.5 µs median solver), ensures h(x)>=0
 forward invariance, and passes 68/68 tests. Available at github.com/EngineerAbdullahBinZafar/principia-robotica.
 
 Q: What does the antigravity-robotics-plugin do?

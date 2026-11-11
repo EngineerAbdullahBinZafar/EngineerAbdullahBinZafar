@@ -52,7 +52,7 @@
   </g>
 
   <!-- Main Title -->
-  <text x="36" y="74" class="title-text">MATHEMATICAL FOUNDATIONS & CONTROL THEOREMS</text>
+  <text x="36" y="74" class="title-text">MATHEMATICAL FOUNDATIONS &amp; CONTROL THEOREMS</text>
 
   <!-- Subtitle -->
   <text x="36" y="101" class="subtitle-text">Control Barrier Functions (CBF-QP)  •  Lyapunov Stability  •  Kalman State Estimation</text>

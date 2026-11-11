@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" width="960" height="470">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f17"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0b0f17"/>
+    </linearGradient>
+    <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <style>
+      .h1 { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; font-size: 17px; font-weight: 800; fill: #f8fafc; letter-spacing: 0.8px; }
+      .sub { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; fill: #00d4ff; font-weight: 700; }
+      .bh { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; font-size: 12.5px; font-weight: 700; fill: #ffffff; }
+      .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 10.5px; fill: #cbd5e1; }
+      .gold { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 10.5px; fill: #f59e0b; font-weight: 700; }
+      .ok { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 10.5px; fill: #10b981; font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="956" height="466" rx="14" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="2" y="2" width="956" height="4" rx="2" fill="url(#hdrGrad)"/>
+
+  <text x="26" y="34" class="h1">CUSTOM ROBOTICS PCB TOPOLOGY — 4-LAYER STACKUP &amp; &lt;50 mV LOW-RIPPLE POWER ARCHITECTURE</text>
+  <text x="26" y="54" class="sub">STAR-GROUND ISOLATION | 2-STAGE LC BUCK FILTER | 18-DOF HEXAPOD &amp; STM32F4 AVIONICS CARRIER BOARD</text>
+
+  <!-- Left Half: Power Rail Stage Schematic -->
+  <rect x="26" y="76" width="520" height="250" rx="8" fill="#0f172a" stroke="#f59e0b" stroke-width="1.3"/>
+  <rect x="26" y="76" width="520" height="26" rx="8" fill="#78350f" fill-opacity="0.45"/>
+  <text x="38" y="94" class="bh">1. Dual-Stage Filtered Power Delivery (&lt;50 mVpp Ripple @ 5A Peak)</text>
+
+  <!-- Input 6S/3S LiPo -->
+  <rect x="42" y="122" width="110" height="72" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="1.2"/>
+  <text x="52" y="142" class="gold">11.1V..24V In</text>
+  <text x="52" y="160" class="m">• TVS + Reverse</text>
+  <text x="52" y="176" class="m">• 220uF Bulk Cap</text>
+
+  <line x1="152" y1="158" x2="178" y2="158" stroke="#f59e0b" stroke-width="2"/>
+  <polygon points="178,153 186,158 178,163" fill="#f59e0b"/>
+
+  <!-- Stage 1 High-Current Buck -->
+  <rect x="188" y="122" width="142" height="72" rx="6" fill="#1e293b" stroke="#00d4ff" stroke-width="1.2"/>
+  <text x="198" y="142" class="sub">Stage 1: 5V / 5A Buck</text>
+  <text x="198" y="160" class="m">• 500 kHz Sync PWM</text>
+  <text x="198" y="176" class="m">• 4.7uH Shielded Ind.</text>
+
+  <line x1="330" y1="158" x2="356" y2="158" stroke="#00d4ff" stroke-width="2"/>
+  <polygon points="356,153 364,158 356,163" fill="#00d4ff"/>
+
+  <!-- Stage 2 Pi LC + LDO -->
+  <rect x="366" y="122" width="164" height="72" rx="6" fill="#064e3b" fill-opacity="0.35" stroke="#10b981" stroke-width="1.4"/>
+  <text x="376" y="142" class="ok">Stage 2: Pi LC + LDO</text>
+  <text x="376" y="160" class="m">• Ferrite 10uH + 47uF</text>
+  <text x="376" y="176" class="ok">• 3.3V Logic &lt;38 mVpp</text>
+
+  <!-- Branch Down to Motor Servo Rail -->
+  <line x1="165" y1="158" x2="165" y2="236" stroke="#f59e0b" stroke-width="1.8"/>
+  <line x1="165" y1="236" x2="188" y2="236" stroke="#f59e0b" stroke-width="1.8"/>
+  <rect x="188" y="212" width="342" height="48" rx="6" fill="#1e293b" stroke="#ef4444" stroke-width="1.2"/>
+  <text x="198" y="232" class="gold">Actuator Bus: 6.0V Servo Rail (18x MG996R)</text>
+  <text x="198" y="248" class="m">Dedicated High-di/dt Return -&gt; 0.05 Ohm Shunt -&gt; Star Point</text>
+
+  <rect x="42" y="274" width="488" height="36" rx="5" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="54" y="296" class="ok">Verified Empirically: &lt;50 mV Peak-to-Peak Ripple under 18-Servo Transient Load</text>
+
+  <!-- Right Half: 4-Layer PCB Stackup Cross Section -->
+  <rect x="564" y="76" width="370" height="250" rx="8" fill="#0f172a" stroke="#7b61ff" stroke-width="1.3"/>
+  <rect x="564" y="76" width="370" height="26" rx="8" fill="#4c1d95" fill-opacity="0.4"/>
+  <text x="576" y="94" class="bh">2. 4-Layer FR-4 Stackup (1.6 mm / 1 oz Cu)</text>
+
+  <!-- Layer 1 -->
+  <rect x="582" y="118" width="334" height="36" rx="4" fill="#0e7490" fill-opacity="0.45" stroke="#00d4ff" stroke-width="1.2"/>
+  <text x="594" y="135" class="sub">L1 (TOP): Signal, Differential CAN, 921.6k UART</text>
+  <text x="594" y="148" class="m">Controlled Z_diff = 120 Ohm (CAN_H / CAN_L)</text>
+
+  <!-- Layer 2 -->
+  <rect x="582" y="164" width="334" height="36" rx="4" fill="#064e3b" fill-opacity="0.5" stroke="#10b981" stroke-width="1.2"/>
+  <text x="594" y="181" class="ok">L2 (INT1): Solid Continuous Reference GND</text>
+  <text x="594" y="194" class="m">Unbroken Return Path -&gt; Minimizes Loop Area</text>
+
+  <!-- Layer 3 -->
+  <rect x="582" y="210" width="334" height="36" rx="4" fill="#78350f" fill-opacity="0.5" stroke="#f59e0b" stroke-width="1.2"/>
+  <text x="594" y="227" class="gold">L3 (INT2): Split Power Pours (3.3V / 5V / 6V)</text>
+  <text x="594" y="240" class="m">Wide Polygon Planes -&gt; &lt;2 mOhm Trace Drop</text>
+
+  <!-- Layer 4 -->
+  <rect x="582" y="256" width="334" height="36" rx="4" fill="#1e293b" stroke="#7b61ff" stroke-width="1.2"/>
+  <text x="594" y="273" class="bh">L4 (BOT): Motor Gate Drive &amp; Thermal Vias</text>
+  <text x="594" y="286" class="m">0.3mm Stitching Vias + Kelvin Current Sense</text>
+
+  <text x="582" y="312" class="m">Fab Tolerance: 6/6 mil trace/space · +/-0.05 mm GD&amp;T</text>
+
+  <!-- Bottom Integration Summary -->
+  <rect x="26" y="344" width="908" height="106" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1.2"/>
+  <text x="42" y="368" class="sub">END-TO-END MECHATRONICS HARDWARE VALIDATION SUMMARY</text>
+  <text x="42" y="390" class="m">• Logic Isolation  : ADuM1201 + Star-Ground Single-Point Tie isolates PWM switching spikes from STM32/IMU ADC rails</text>
+  <text x="42" y="410" class="m">• Signal Integrity : 120 Ohm CAN differential pair routing + 100 nF/10 uF X7R decoupling within 2 mm of every VDD pin</text>
+  <text x="42" y="430" class="ok">• Physical Metrics : +/-1 mm Hexapod Repeatability | &lt;50 mV PSU Ripple | &lt;2 deg Drone EKF Attitude Error | 0 PCB Revisions Needed</text>
+</svg>

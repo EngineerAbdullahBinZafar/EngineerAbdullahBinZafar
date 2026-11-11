@@ -55,7 +55,7 @@
   <text x="36" y="74" class="title-text">EXECUTIVE ENGINEERING PROFILE</text>
 
   <!-- Subtitle -->
-  <text x="36" y="101" class="subtitle-text">B.Sc. Mechatronics & Control Engineering  •  UET Lahore  •  Top Merit Scholar</text>
+  <text x="36" y="101" class="subtitle-text">B.Sc. Mechatronics &amp; Control Engineering  •  UET Lahore  •  Top Merit Scholar</text>
 
   <!-- Right Decorative Cyber-Physical Accents -->
   <g transform="translate(900, 65)">

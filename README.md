@@ -161,7 +161,7 @@ Professional Profiles:
       $$\dot{h}(x, u) = \nabla h(x)^T \dot{x} = L_f h(x) + L_g h(x) u \ge -\alpha(h(x))$$
       <p>The safety filter projects unsafe AI inputs $u_{\text{AI}}$ onto the safe set in sub-millisecond real-time:</p>
       $$u^*(x) = \arg\min_{u \in \mathcal{U}} \frac{1}{2} \|u - u_{\text{AI}}\|_Q^2 \quad \text{s.t.} \quad L_f h_i(x) + L_g h_i(x) u \ge -\gamma_i h_i(x)$$
-      <sub><b>Realization:</b> <code>principia-robotica</code> · >12,000 Hz solver · &lt;50 µs loop latency · 68/68 tests passed</sub>
+      <sub><b>Realization:</b> <code>principia-robotica</code> (Python + C++17) · 31.5 µs median latency (&gt;20,000 Hz) · 68/68 tests</sub>
     </td>
     <td width="50%" valign="top">
       <h4>🎯 2. Control Lyapunov Functions (CLF) — Asymptotic Stability</h4>
@@ -226,7 +226,7 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
 ┌───────────────────────────────────────────┴────────────────────────────────────────────┐
 │                    TIER 2: FORMAL SAFETY CERTIFICATION & INVARIANT FILTER              │
 │   principia-robotica · Control Barrier Functions (CBF-QP) · Control Lyapunov (CLF)     │
-│   Strict Forward Invariance h(x) ≥ 0 · Sub-0.1ms KKT Optimization (>12,000 Hz)         │
+│   Strict Forward Invariance h(x) ≥ 0 · 31.5 us KKT Optimization (>20,000 Hz)           │
 └───────────────────────────────────────────▲────────────────────────────────────────────┘
                                             │ Certified Safe Command u*
 ┌───────────────────────────────────────────┴────────────────────────────────────────────┐
@@ -249,25 +249,37 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
 
 #### Core Mathematical Guarantees Across the 4 Tiers
 
-1. **Tier 1 (Agentic Kinematics & Collision Prediction)**:
-   For a mobile base in $\text{SE}(2)$ with state $\mathbf{x} = [x, y, \theta]^T$, the fast-forward predictor evaluates dynamic Time-To-Collision ($\text{TTC}$) over horizon $T$:
-   $$\begin{bmatrix} \dot{x} \\ \dot{y} \\ \dot{\theta} \end{bmatrix} = \begin{bmatrix} v \cos\theta \\ v \sin\theta \\ \omega \end{bmatrix}, \quad \text{TTC} = \inf \{ t_k : \|\mathbf{p}_k - \mathbf{p}_{\text{obs}}\|_2 \le r_{\text{obs}} + r_{\text{robot}} \}$$
+**Tier 1 — Agentic Kinematics & Collision Prediction**
 
-2. **Tier 2 (Control Barrier Function Quadratic Programming)**:
-   Given an unconstrained AI velocity command $\mathbf{u}_{\text{AI}} \in \mathbb{R}^m$, the real-time safety filter solves a strictly convex Quadratic Program:
-   $$\mathbf{u}^* = \arg\min_{\mathbf{u} \in \mathcal{U}} \frac{1}{2} \|\mathbf{u} - \mathbf{u}_{\text{AI}}\|_Q^2 \quad \text{subject to} \quad L_f h(\mathbf{x}) + L_g h(\mathbf{x}) \mathbf{u} \ge -\gamma(h(\mathbf{x}))$$
-   By Nagumo's Theorem and Ames et al., forward invariance is guaranteed:
-   $$\mathbf{x}(0) \in \mathcal{C} \implies \mathbf{x}(t) \in \mathcal{C} \quad \forall t \ge 0, \quad \mathcal{C} = \{\mathbf{x} \in \mathbb{R}^n : h(\mathbf{x}) \ge 0\}$$
+For a mobile base in $\text{SE}(2)$ with state $\mathbf{x} = [x, y, \theta]^T$, the fast-forward predictor evaluates Time-To-Collision ($\text{TTC}$) over horizon $T$:
 
-3. **Tier 3 (AUTOSAR E2E Profile 1 Integrity & CRC-8)**:
-   Serial telemetry framing combines a 4-bit monotonic sequence counter, Data ID, and the SAE J1850 primitive generator polynomial over $\text{GF}(2)$:
-   $$G(x) = x^8 + x^4 + x^3 + x^2 + 1 \quad (\text{Hex: } 0\text{x}1\text{D}), \quad \text{Period } T = 2^8 - 1 = 255\text{ bits}$$
-   AUTOSAR E2E Profile 1 protocol framing guarantees $d_{\min} \ge 4$ fault detection for short telemetry frames ($L \le 8$ bytes), while primitive $G(x)$ ensures 100% detection of burst errors $b \le 8$ bits and $99.61\%$ ($1 - 2^{-8}$) of burst errors $b > 8$ bits.
+$$\begin{bmatrix} \dot{x} \\ \dot{y} \\ \dot{\theta} \end{bmatrix} = \begin{bmatrix} v \cos\theta \\ v \sin\theta \\ \omega \end{bmatrix}, \qquad \text{TTC} = \inf \{ t_k : \|\mathbf{p}(t_k) - \mathbf{p}_{\text{obs}}\|_2 \le r_{\text{obs}} + r_{\text{robot}} \}$$
 
-4. **Tier 4 (Stochastic Fault Injection & Reliability)**:
-   Continuous sensor channels are perturbed via Additive White Gaussian Noise (AWGN):
-   $$\tilde{\mathbf{s}}(t) = \mathbf{s}(t) + \boldsymbol{\eta}(t), \quad \boldsymbol{\eta}(t) \sim \mathcal{N}(\mathbf{0}, \mathbf{\Sigma})$$
-   with explicit $L_2$ projective quaternion re-normalization $\mathbf{q} \leftarrow \mathbf{q} / \|\mathbf{q}\|_2$ preserving $\text{SO}(3)$ manifold integrity.
+**Tier 2 — Control Barrier Function Quadratic Programming**
+
+Given an unconstrained AI velocity command $\mathbf{u}_{\text{AI}} \in \mathbb{R}^m$, the safety filter projects onto the safe admissible set via strictly convex Quadratic Programming:
+
+$$\mathbf{u}^* = \arg\min_{\mathbf{u} \in \mathcal{U}} \frac{1}{2} \|\mathbf{u} - \mathbf{u}_{\text{AI}}\|_Q^2 \quad \text{s.t.} \quad L_f h(\mathbf{x}) + L_g h(\mathbf{x}) \mathbf{u} \ge -\gamma(h(\mathbf{x}))$$
+
+Under continuous-time assumptions (Nagumo's Theorem & Ames et al.), forward invariance holds on $\mathcal{C}$:
+
+$$\mathbf{x}(0) \in \mathcal{C} \implies \mathbf{x}(t) \in \mathcal{C} \quad \forall t \ge 0, \qquad \mathcal{C} = \{\mathbf{x} \in \mathbb{R}^n : h(\mathbf{x}) \ge 0\}$$
+
+**Tier 3 — AUTOSAR E2E Profile 1 Integrity & CRC-8**
+
+Serial telemetry framing combines a 4-bit monotonic sequence counter, Data ID, and the SAE J1850 primitive generator polynomial over $\text{GF}(2)$:
+
+$$G(x) = x^8 + x^4 + x^3 + x^2 + 1 \quad (0\text{x}1\text{D}), \qquad T = 2^8 - 1 = 255\text{ bits}$$
+
+AUTOSAR E2E Profile 1 framing guarantees $d_{\min} \ge 4$ fault detection for short telemetry frames ($L \le 8$ bytes), detecting 100% of burst errors $b \le 8$ bits and $99.61\%$ ($1 - 2^{-8}$) for $b > 8$ bits.
+
+**Tier 4 — Stochastic Fault Injection & Reliability**
+
+Continuous sensor channels are perturbed via Additive White Gaussian Noise (AWGN):
+
+$$\tilde{\mathbf{s}}(t) = \mathbf{s}(t) + \boldsymbol{\eta}(t), \qquad \boldsymbol{\eta}(t) \sim \mathcal{N}(\mathbf{0}, \mathbf{\Sigma})$$
+
+with explicit $L_2$ projective quaternion re-normalization $\mathbf{q} \leftarrow \mathbf{q} / \|\mathbf{q}\|_2$ preserving $\text{SO}(3)$ manifold integrity.
 
 ---
 
@@ -290,7 +302,7 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
           🛡️ SafeMotion AI — Deterministic Physical AI Safety Shield (FastAPI + MCP Gateway)
         </a>
         &nbsp;
-        <img src="https://img.shields.io/badge/18%2F18%20Tests-PASSED-10b981?style=flat-square" alt="SafeMotion AI: 18 of 18 Automated Unit Tests Passed"/>
+        <img src="https://img.shields.io/badge/28%2F28%20Tests-PASSED-10b981?style=flat-square" alt="SafeMotion AI: 28 of 28 Automated Unit Tests Passed"/>
         <img src="https://img.shields.io/badge/v1.0.0-Production-f59e0b?style=flat-square" alt="SafeMotion AI: v1.0.0 Production Release"/>
         <img src="https://img.shields.io/badge/%3C35%CE%BCs-Latency-00d4ff?style=flat-square" alt="SafeMotion AI: Sub-35 Microsecond Execution Latency"/>
         <img src="https://img.shields.io/badge/MCP-Protocol%20Native-7b61ff?style=flat-square" alt="SafeMotion AI: Native Model Context Protocol Support"/>
@@ -378,7 +390,7 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
         &nbsp;
         <img src="https://img.shields.io/badge/68%2F68%20Tests-PASSED-10b981?style=flat-square" alt="Principia Robotica: 68 of 68 Safety Filter Tests Passed"/>
       </h3>
-      <p>Real-time CBF-QP safety filter for 2D unicycle robots. Projects any unsafe AI velocity command $(v, \omega)$ onto the safe set using closed-form minimum-norm gradient correction. Runs at &gt;12,000 Hz with &lt;50 µs loop latency.</p>
+      <p>Real-time CBF-QP safety filter for 2D unicycle robots. Projects any unsafe AI velocity command $(v, \omega)$ onto the safe set using closed-form minimum-norm gradient correction. Dual Python + zero-allocation C++17 (<code>cpp/</code>) implementation running at 31.5 µs median latency (&gt;20,000 Hz throughput).</p>
       <p><code>python demo.py</code> → ASCII map showing unfiltered crash vs. CBF-deflected safe trajectory</p>
       <p>
         <img src="https://img.shields.io/badge/CBF--QP-Safety%20Filter-7b61ff?style=flat-square" alt="Principia Robotica: Real-Time Unicycle CBF-QP Safety Filter"/>
@@ -477,16 +489,33 @@ The 7 flagship repositories authored by **Engineer Abdullah Bin Zafar** form an 
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════
-     SECTION 6 — GITHUB TROPHIES (new visual widget)
+     SECTION 6 — BARE-METAL C/C++ SYSTEMS & HARDWARE SCHEMATICS
      ═══════════════════════════════════════════════════════════════════ -->
 
-<div align="center">
+### ⚙️ Native C11 / C++17 Embedded Firmware & Hardware PCB Schematics
 
-## 🏆 GitHub Achievement Trophies
+To keep real-time control loops deterministic from silicon registers up to ROS 2 DDS middleware, core safety drivers and CAN controllers are implemented in **strict zero-heap C11 and C++17**, continuously compiled and sanitized under `-Wall -Wextra -Werror -fsanitize=address,undefined` via GitHub Actions:
 
-<img src="https://github-profile-trophy.vercel.app/?username=EngineerAbdullahBinZafar&theme=onestar&no-frame=true&no-bg=true&margin-w=6&margin-h=6&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B" alt="GitHub Achievement Trophies for Engineer Abdullah Bin Zafar" width="100%"/>
+| Repository / Subsystem | Core Languages | Verified Engineering Scope & Hardware Realization | Hardware Topology / Spec |
+| :--- | :--- | :--- | :--- |
+| [**`ros2-hardware-bridge`**](https://github.com/EngineerAbdullahBinZafar/ros2-hardware-bridge) | **C11 · C++17** | 7-state AUTOSAR E2E Profile 1 parser, static 512B SPSC DMA ring buffer, COBS codec, & `SerialE2ECodec` host wrapper | [Wiring & Isolator SVG](https://github.com/EngineerAbdullahBinZafar/ros2-hardware-bridge/blob/main/docs/assets/stm32_uart_can_topology.svg) |
+| [**`zephyr-can-fault-injection`**](https://github.com/EngineerAbdullahBinZafar/zephyr-can-fault-injection) | **C11 · Zephyr** | Lock-free In-ISR token-bucket `ERRINT` log rate limiter & ISO 11898-1:2015 Bus-Off auto-recovery state machine | [FlexCAN ISR FSM SVG](https://github.com/EngineerAbdullahBinZafar/zephyr-can-fault-injection/blob/main/docs/assets/flexcan_errint_rate_limiter_arch.svg) |
+| [**`stm32-hal-fuzzer`**](https://github.com/EngineerAbdullahBinZafar/stm32-hal-fuzzer) | **C11 · AFL/LLVM** | Contract-verified C11 HAL peripheral precondition checker (NULL handles, zero DMA lengths, PLL clock bounds) across 28 APIs | [C11 Harness & ASan](https://github.com/EngineerAbdullahBinZafar/stm32-hal-fuzzer/tree/main/c_harness) |
+| [**`principia-robotica/cpp`**](https://github.com/EngineerAbdullahBinZafar/principia-robotica/tree/main/cpp) | **C++17 · CMake** | Zero-allocation active-set KKT / Dykstra CBF-QP filter with box actuator bounds & Euler closed-loop verification | [C++17 Solver Source](https://github.com/EngineerAbdullahBinZafar/principia-robotica/tree/main/cpp) |
+| [**`antigravity-robotics-plugin`**](https://github.com/EngineerAbdullahBinZafar/antigravity-robotics-plugin/tree/main/ros2_packages) | **C++17 · rclcpp** | Deterministic `rclcpp_lifecycle::LifecycleNode` controller (`antigravity_core`) & custom Qt `rviz_common::Panel` | [ROS 2 C++ Packages](https://github.com/EngineerAbdullahBinZafar/antigravity-robotics-plugin/tree/main/ros2_packages) |
 
-</div>
+<p align="center">
+  <img src="assets/schematics/power_rail_4layer_pcb.svg" width="100%" alt="4-Layer Robotics PCB Stackup & Two-Stage LC Buck Power Rail Architecture achieving Sub-50 mV Ripple under 5A Load" />
+</p>
+
+<br/>
+
+<p align="center">
+  <b>Cross-Repository Subsystem Topologies:</b>
+  <a href="https://github.com/EngineerAbdullahBinZafar/ros2-hardware-bridge/blob/main/docs/assets/stm32_uart_can_topology.svg">STM32 ADuM1201 + CAN Bus Wiring</a> ·
+  <a href="https://github.com/EngineerAbdullahBinZafar/automotive-chassis-cbf/blob/main/docs/assets/quarter_car_hil_topology.svg">Quarter-Car Active Suspension HIL Schematic</a> ·
+  <a href="https://github.com/EngineerAbdullahBinZafar/zephyr-can-fault-injection/blob/main/docs/assets/flexcan_errint_rate_limiter_arch.svg">Zephyr CAN ISR Rate Limiter Topology</a>
+</p>
 
 ---
 
@@ -702,9 +731,9 @@ Interloop Limited is Pakistan's largest hosiery and textile exporter — a **For
 
 ## 💼 Open for Elite Engineering Opportunities
 
-**Targeting**: Global Autonomous Vehicle Teams · Waymo · Tesla · BMW · Mercedes<br/>
-Aerospace, Turbomachinery & Robotics · Rolls-Royce · Airbus · Boston Dynamics<br/>
-Advanced Industrial Automation · Siemens · ABB · Bosch · KUKA
+**Focus Domains**: Autonomous Vehicles & ADAS (Waymo · Tesla · BMW · Mercedes)<br/>
+Mobile Robotics, Legged Locomotion & Physical AI (Boston Dynamics · Figure · Agility)<br/>
+Industrial Automation, Embedded RTOS & Control Systems (Siemens · ABB · Bosch · KUKA)
 
 <br/>
 

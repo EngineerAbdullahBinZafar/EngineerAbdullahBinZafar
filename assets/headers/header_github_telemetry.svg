@@ -52,10 +52,10 @@
   </g>
 
   <!-- Main Title -->
-  <text x="36" y="74" class="title-text">SYSTEM TELEMETRY & OPEN-SOURCE VERIFICATION</text>
+  <text x="36" y="74" class="title-text">SYSTEM TELEMETRY &amp; OPEN-SOURCE VERIFICATION</text>
 
   <!-- Subtitle -->
-  <text x="36" y="101" class="subtitle-text">Continuous Verification  •  390/390 Tests Passed  •  Zero Regression</text>
+  <text x="36" y="101" class="subtitle-text">Continuous Verification  •  405+ Python Tests  •  C11 / C++17 ASan Suites  •  Zero Regression</text>
 
   <!-- Right Decorative Cyber-Physical Accents -->
   <g transform="translate(900, 65)">

@@ -36,7 +36,7 @@ Abdullah Bin Zafar's open-source engineering ecosystem is organized into a forma
                                      │ JSON-RPC 2.0 / stdio / SSE
 ┌────────────────────────────────────▼───────────────────────────────────┐
 │ TIER 2 — MODEL CONTEXT PROTOCOL (MCP) SAFETY GATEWAYS                  │
-│ • ros2-mcp-server: World-first MCP server for live ROS 2 networks     │
+│ • ros2-mcp-server: JSON-RPC 2.0 MCP server for live ROS 2 networks    │
 │ • antigravity-robotics-plugin: 3-tier sandbox (read_only, safe_write)  │
 └────────────────────────────────────┬───────────────────────────────────┘
                                      │ Unconstrained Velocity Commands (u_AI)
@@ -92,19 +92,19 @@ Data integrity on high-speed serial and CAN communication links is certified usi
 
 ## 4. Repository Inventory & Test Attestations
 
-All 7 repositories are 100% verified with passing automated test suites (totaling 384 passing tests across the portfolio):
+All 7 repositories are 100% verified with passing automated test suites (totaling 395+ passing Python tests + C11/C++17 ASan/UBSan test suites):
 
 1. **`EngineerAbdullahBinZafar`** (Profile Repository)
    - Scope: Central portfolio, personal entity authority, AEO / GEO discovery index.
-   - Assets: 1200x630 OpenGraph cards, HD profile avatar, WCAG 2.1 compliant alt tags.
+   - Assets: 1200x630 OpenGraph cards, 4-Layer PCB schematics, WCAG 2.1 compliant alt tags.
 
 2. **`safemotion-ai`**
    - Scope: Sub-millisecond deterministic CBF-QP safety API & MCP server.
-   - Tests: 18/18 tests passing (`pytest tests/`).
+   - Tests: 28/28 tests passing (`pytest tests/`).
    - Latency: <35 microseconds closed-form analytical QP solve.
 
 3. **`ros2-mcp-server`**
-   - Scope: World-first Model Context Protocol (MCP) server for ROS 2.
+   - Scope: Standalone Model Context Protocol (MCP) server for ROS 2.
    - Tests: 42/42 tests passing (`python run_tests.py`).
    - Capabilities: 16-tool catalog, JSON-RPC 2.0 stdio transport, 3-tier sandbox.
 
@@ -114,7 +114,7 @@ All 7 repositories are 100% verified with passing automated test suites (totalin
    - Throughput: >20,000 Hz evaluation loop, KKT optimality verified.
 
 5. **`automotive-chassis-cbf`**
-   - Scope: Ultra-luxury active suspension: HOCBF ($r=2$) + 100 Hz MPC + AUTOSAR E2E CAN.
+   - Scope: Active suspension HIL framework: HOCBF ($r=2$) + 100 Hz MPC + AUTOSAR E2E CAN.
    - Tests: 88/88 tests passing (`pytest tests/`).
    - Performance: +35.65% RMS ride comfort improvement over passive baseline on ISO 8608 Class A roads.
 

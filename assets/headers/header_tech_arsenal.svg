@@ -52,7 +52,7 @@
   </g>
 
   <!-- Main Title -->
-  <text x="36" y="74" class="title-text">ENGINEERING & TECHNOLOGY ARSENAL</text>
+  <text x="36" y="74" class="title-text">ENGINEERING &amp; TECHNOLOGY ARSENAL</text>
 
   <!-- Subtitle -->
   <text x="36" y="101" class="subtitle-text">Classical Control Theory  •  Bare-Metal Silicon  •  Physical AI Middleware</text>
