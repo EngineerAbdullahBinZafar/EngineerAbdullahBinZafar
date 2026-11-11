@@ -291,6 +291,33 @@ with explicit $L_2$ projective quaternion re-normalization $\mathbf{q} \leftarro
   <img src="assets/headers/header_flagship_projects.svg" width="100%" alt="Section 05: Flagship Engineering Projects Portfolio"/>
 </div>
 
+### 🎬 Frontier Generative AI Systems & Agent Tooling — [Wan-Video Pilot (wan-pilot)](https://github.com/EngineerAbdullahBinZafar/wan-pilot)
+
+<table width="100%">
+  <tr>
+    <td width="100%" valign="top">
+      <h3>
+        <a href="https://github.com/EngineerAbdullahBinZafar/wan-pilot">
+          🎬 Wan-Video Pilot — Production Diagnostics, VRAM Budgeting & FastMCP Bridge
+        </a>
+        &nbsp;
+        <img src="https://img.shields.io/badge/267%2F267%20Tests-PASSED-10b981?style=flat-square" alt="Wan-Video Pilot: 267 of 267 Automated Tests Passed"/>
+        <img src="https://img.shields.io/badge/v0.1.0-Production-f59e0b?style=flat-square" alt="Wan-Video Pilot: v0.1.0 Production Release"/>
+        <img src="https://img.shields.io/badge/VRAM-18.47GB%20Peak-00d4ff?style=flat-square" alt="Wan-Video Pilot: 18.47GB Peak on 24GB GPUs"/>
+        <img src="https://img.shields.io/badge/MCP-Protocol%20Native-7b61ff?style=flat-square" alt="Wan-Video Pilot: FastMCP Spec 2024-11-05"/>
+      </h3>
+      <p><b>Production-grade optimization toolkit and autonomous agent bridge for Alibaba Cloud's Wan-Video generative foundation models (Wan2.1 &amp; Wan2.2 MoE).</b><br/>
+      Eliminates the 54GB MoE VRAM crash on consumer 24GB GPUs (RTX 4090 / 3090) via sequential dual-expert swapping at boundary timestep \(t_{\text{moe}}\). Features an Attention Doctor with native SDPA fallback for Windows MSVC build traps, auto-transposition for mobile conditioning images (<a href="https://github.com/Wan-Video/Wan2.2/issues/415">Wan2.2 #415</a>), multi-tier video encoding fail-safes (<a href="https://github.com/Wan-Video/Wan2.2/issues/416">Wan2.2 #416</a>), and an interactive zero-install studio Web Workbench.</p>
+      <ul>
+        <li><b>Core Stack:</b> Python 3.10+, PyTorch SDPA, ComfyUI Prompt API, FastMCP (stdio JSON-RPC 2.0), HTML5 Web Workbench.</li>
+        <li><b>Verification:</b> 100% pass across 267 unit, boundary, combinatorial, and scenario E2E tests in multi-OS GitHub Actions CI.</li>
+        <li><b>Live Studio Workbench:</b> <a href="https://engineerabdullahbinzafar.github.io/wan-pilot/">engineerabdullahbinzafar.github.io/wan-pilot/</a></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
 
 ### 🛡️ Commercial Physical AI Safety — Micro-SaaS & Hosted Gateway
 
